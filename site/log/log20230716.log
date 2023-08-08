@@ -1,0 +1,42 @@
+Début de traitement 2023-02-16 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 16-07-2023 02:15:01 Cron
+Extraction SOAP : 397 adhérents extraits
+Licencié 750420239080 - Marie-Fanny PAUL => trouvé adhérent correspondant exactemement  - ancien n° licence 750420149029
+Adhérent  - Marie-Fanny PAUL => mise à jour n° de licence 750420239080
+Mise à jour adhésion pour 433 - Marie-Fanny PAUL
+Création d'écarts de données cb_adresse pour 433 - Marie-Fanny PAUL
+Création d'écarts de données cb_mobile pour 433 - Marie-Fanny PAUL
+Création d'écarts de données cb_contactaccident pour 433 - Marie-Fanny PAUL
+397 enregistrements dans base FFCAM dont 321 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 320 non traités 
+Fin de traitement 2023-07-16 02:15:05
+ Début de traitement 2023-10-16 10:15:02
+Données session apiFFCAM vide - lancement API
+Import du 16-07-2023 10:15:02 Cron
+Extraction SOAP : 397 adhérents extraits
+397 enregistrements dans base FFCAM dont 321 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 321 non traités 
+Fin de traitement 2023-07-16 10:15:05
+ Début de traitement 2023-02-16 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 16-07-2023 14:15:01 Cron
+Extraction SOAP : 397 adhérents extraits
+397 enregistrements dans base FFCAM dont 321 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 321 non traités 
+Fin de traitement 2023-07-16 14:15:05
+ Début de traitement 2023-06-16 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 16-07-2023 18:15:01 Cron
+Extraction SOAP : 397 adhérents extraits
+397 enregistrements dans base FFCAM dont 321 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 321 non traités 
+Fin de traitement 2023-07-16 18:15:05
+ Début de traitement 2023-10-16 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 16-07-2023 22:15:01 Cron
+Extraction SOAP : 397 adhérents extraits
+397 enregistrements dans base FFCAM dont 321 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 321 non traités 
+Fin de traitement 2023-07-16 22:15:05
+ 

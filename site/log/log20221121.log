@@ -1,0 +1,42 @@
+Début de traitement 2022-02-21 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 21-11-2022 02:15:01 Cron
+Extraction SOAP : 364 adhérents extraits
+364 enregistrements dans base FFCAM dont 260 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 260 non traités 
+Fin de traitement 2022-11-21 02:15:04
+ Début de traitement 2022-10-21 10:15:06
+Données session apiFFCAM vide - lancement API
+Import du 21-11-2022 10:15:06 Cron
+Extraction SOAP : 365 adhérents extraits
+Licencié 750420239048 - Camille NAUDET => trouvé adhérent correspondant exactemement  - ancien n° licence 750020200104
+Adhérent  - Camille NAUDET => mise à jour n° de licence 750420239048
+Mise à jour adhésion pour 1401 - Camille NAUDET
+Création d'écarts de données cb_adresse pour 1401 - Camille NAUDET
+Création d'écarts de données cb_mobile pour 1401 - Camille NAUDET
+Création d'écarts de données cb_contactaccident pour 1401 - Camille NAUDET
+365 enregistrements dans base FFCAM dont 261 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 260 non traités 
+Fin de traitement 2022-11-21 10:15:09
+ Début de traitement 2022-02-21 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 21-11-2022 14:15:01 Cron
+Extraction SOAP : 365 adhérents extraits
+365 enregistrements dans base FFCAM dont 261 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 261 non traités 
+Fin de traitement 2022-11-21 14:15:04
+ Début de traitement 2022-06-21 18:15:02
+Données session apiFFCAM vide - lancement API
+Import du 21-11-2022 18:15:02 Cron
+Extraction SOAP : 365 adhérents extraits
+365 enregistrements dans base FFCAM dont 261 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 261 non traités 
+Fin de traitement 2022-11-21 18:15:04
+ Début de traitement 2022-10-21 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 21-11-2022 22:15:02 Cron
+Extraction SOAP : 365 adhérents extraits
+365 enregistrements dans base FFCAM dont 261 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 261 non traités 
+Fin de traitement 2022-11-21 22:15:05
+ 

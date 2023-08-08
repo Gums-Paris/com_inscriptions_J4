@@ -1,0 +1,54 @@
+Début de traitement 2022-02-06 02:15:02
+Données session apiFFCAM vide - lancement API
+Import du 06-09-2022 02:15:02 Cron
+Extraction SOAP : 325 adhérents extraits
+Mise à jour adhésion pour 1450 - Cyril ARNODO
+Modification d'écarts de données cb_contactaccident pour 1450 - Cyril ARNODO
+325 enregistrements dans base FFCAM dont 49 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 48 non traités 
+Fin de traitement 2022-09-06 02:15:04
+ Début de traitement 2022-10-06 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 06-09-2022 10:15:01 Cron
+Extraction SOAP : 325 adhérents extraits
+Mise à jour adhésion pour 843 - Robert MIZRAHI
+Mise à jour adhésion pour 1482 - Jacques BEILIN
+Mise à jour adhésion pour 1516 - Dan ISRAEL
+Modification d'écarts de données cb_ville pour 1516 - Dan ISRAEL
+Mise à jour adhésion pour 1556 - Loraine GABRIEL
+Modification d'écarts de données cb_contactaccident pour 1556 - Loraine GABRIEL
+Données cb_adresse rectifiée pour 1556 - Loraine GABRIEL
+Données cb_codepostal rectifiée pour 1556 - Loraine GABRIEL
+325 enregistrements dans base FFCAM dont 53 à jour de licence
+0 nouvelles adhésions / 4 adhérents mis à jour / 49 non traités 
+Fin de traitement 2022-09-06 10:15:03
+ Début de traitement 2022-02-06 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 06-09-2022 14:15:01 Cron
+Extraction SOAP : 325 adhérents extraits
+Mise à jour adhésion pour 1521 - Lea KRAL
+Modification d'écarts de données cb_adresse pour 1521 - Lea KRAL
+Création d'écarts de données cb_codepostal pour 1521 - Lea KRAL
+Création d'écarts de données cb_ville pour 1521 - Lea KRAL
+325 enregistrements dans base FFCAM dont 54 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 53 non traités 
+Fin de traitement 2022-09-06 14:15:03
+ Début de traitement 2022-06-06 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 06-09-2022 18:15:01 Cron
+Extraction SOAP : 325 adhérents extraits
+Mise à jour adhésion pour 1503 - Raphael COURONNE
+Mise à jour adhésion pour 1165 - Jean-Louis THARAUD
+Création d'écarts de données cb_adresse2 pour 1165 - Jean-Louis THARAUD
+Données cb_adresse rectifiée pour 1165 - Jean-Louis THARAUD
+325 enregistrements dans base FFCAM dont 56 à jour de licence
+0 nouvelles adhésions / 2 adhérents mis à jour / 54 non traités 
+Fin de traitement 2022-09-06 18:15:03
+ Début de traitement 2022-10-06 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 06-09-2022 22:15:02 Cron
+Extraction SOAP : 325 adhérents extraits
+325 enregistrements dans base FFCAM dont 56 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 56 non traités 
+Fin de traitement 2022-09-06 22:15:03
+ 

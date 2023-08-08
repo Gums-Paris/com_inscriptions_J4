@@ -1,0 +1,48 @@
+Début de traitement 2022-02-08 02:15:02
+Données session apiFFCAM vide - lancement API
+Import du 08-09-2022 02:15:02 Cron
+Extraction SOAP : 325 adhérents extraits
+325 enregistrements dans base FFCAM dont 62 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 62 non traités 
+Fin de traitement 2022-09-08 02:15:03
+ Début de traitement 2022-10-08 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 08-09-2022 10:15:01 Cron
+Extraction SOAP : 326 adhérents extraits
+Mise à jour adhésion pour 1488 - Hugo DELLINGER
+Licencié 750420239010 - Iris PESSAROSSI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Iris PESSAROSSI
+Insertion de Iris PESSAROSSI dans user => id = 1600
+Insertion de Iris PESSAROSSI  dans usergroup_map
+Insertion dans comprofiler de Iris PESSAROSSI
+326 enregistrements dans base FFCAM dont 64 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 63 non traités 
+Fin de traitement 2022-09-08 10:15:04
+ Début de traitement 2022-02-08 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 08-09-2022 14:15:02 Cron
+Extraction SOAP : 326 adhérents extraits
+326 enregistrements dans base FFCAM dont 64 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 64 non traités 
+Fin de traitement 2022-09-08 14:15:03
+ Début de traitement 2022-06-08 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 08-09-2022 18:15:01 Cron
+Extraction SOAP : 327 adhérents extraits
+Mise à jour adhésion pour 1332 - Pascal LOCHET
+Licencié 750420239011 - Reine PENKA => pas trouvé d'adhérent correspondant exactemement
+Création adherent Reine PENKA
+Insertion de Reine PENKA dans user => id = 1601
+Insertion de Reine PENKA  dans usergroup_map
+Insertion dans comprofiler de Reine PENKA
+327 enregistrements dans base FFCAM dont 66 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 65 non traités 
+Fin de traitement 2022-09-08 18:15:03
+ Début de traitement 2022-10-08 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 08-09-2022 22:15:01 Cron
+Extraction SOAP : 327 adhérents extraits
+327 enregistrements dans base FFCAM dont 66 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 66 non traités 
+Fin de traitement 2022-09-08 22:15:03
+ 

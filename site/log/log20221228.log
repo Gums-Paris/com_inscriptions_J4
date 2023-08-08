@@ -1,0 +1,66 @@
+Début de traitement 2022-02-28 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 28-12-2022 02:15:01 Cron
+Extraction SOAP : 378 adhérents extraits
+Attention erreur sur données de base pour 591 Clemence FAURE
+Licencié 750420239049 - Paule ARNAL => pas trouvé d'adhérent correspondant exactemement
+Création adherent Paule ARNAL
+Adresse mail paule.arnal@free.fr existe déjà 
+          pour 101 Paule ARNAL - Adhérent non créé 
+378 enregistrements dans base FFCAM dont 288 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 288 non traités 
+Fin de traitement 2022-12-28 02:15:04
+ Début de traitement 2022-10-28 10:15:02
+Données session apiFFCAM vide - lancement API
+Import du 28-12-2022 10:15:02 Cron
+Extraction SOAP : 378 adhérents extraits
+Attention erreur sur données de base pour 591 Clemence FAURE
+Licencié 750420239049 - Paule ARNAL => pas trouvé d'adhérent correspondant exactemement
+Création adherent Paule ARNAL
+Adresse mail paule.arnal@free.fr existe déjà 
+          pour 101 Paule ARNAL - Adhérent non créé 
+378 enregistrements dans base FFCAM dont 288 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 288 non traités 
+Fin de traitement 2022-12-28 10:15:05
+ Début de traitement 2022-02-28 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 28-12-2022 14:15:02 Cron
+Extraction SOAP : 378 adhérents extraits
+Attention erreur sur données de base pour 591 Clemence FAURE
+Licencié 750420239049 - Paule ARNAL => pas trouvé d'adhérent correspondant exactemement
+Création adherent Paule ARNAL
+Adresse mail paule.arnal@free.fr existe déjà 
+          pour 101 Paule ARNAL - Adhérent non créé 
+378 enregistrements dans base FFCAM dont 288 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 288 non traités 
+Fin de traitement 2022-12-28 14:15:04
+ Début de traitement 2022-06-28 18:15:02
+Données session apiFFCAM vide - lancement API
+Import du 28-12-2022 18:15:02 Cron
+Extraction SOAP : 379 adhérents extraits
+Attention erreur sur données de base pour 591 Clemence FAURE
+Licencié 750420239049 - Paule ARNAL => pas trouvé d'adhérent correspondant exactemement
+Création adherent Paule ARNAL
+Adresse mail paule.arnal@free.fr existe déjà 
+          pour 101 Paule ARNAL - Adhérent non créé 
+Licencié 750420239062 - Nadia WOLF => pas trouvé d'adhérent correspondant exactemement
+Création adherent Nadia WOLF
+Insertion de Nadia WOLF dans user => id = 1651
+Insertion de Nadia WOLF  dans usergroup_map
+Insertion dans comprofiler de Nadia WOLF
+379 enregistrements dans base FFCAM dont 289 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 289 non traités 
+Fin de traitement 2022-12-28 18:15:05
+ Début de traitement 2022-10-28 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 28-12-2022 22:15:01 Cron
+Extraction SOAP : 379 adhérents extraits
+Attention erreur sur données de base pour 591 Clemence FAURE
+Licencié 750420239049 - Paule ARNAL => pas trouvé d'adhérent correspondant exactemement
+Création adherent Paule ARNAL
+Adresse mail paule.arnal@free.fr existe déjà 
+          pour 101 Paule ARNAL - Adhérent non créé 
+379 enregistrements dans base FFCAM dont 289 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 289 non traités 
+Fin de traitement 2022-12-28 22:15:04
+ 

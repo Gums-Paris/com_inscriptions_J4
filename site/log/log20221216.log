@@ -1,0 +1,78 @@
+Début de traitement 2022-02-16 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 16-12-2022 02:15:01 Cron
+Extraction SOAP : 371 adhérents extraits
+Attention erreur sur données de base pour 591 Clemence FAURE
+Création d'écarts de données cb_adresse pour 1105 - Loic RAUCY
+Création d'écarts de données cb_codepostal pour 1105 - Loic RAUCY
+Création d'écarts de données cb_ville pour 1105 - Loic RAUCY
+Création d'écarts de données cb_contactaccident pour 1105 - Loic RAUCY
+Création d'écarts de données cb_adresse pour 1284 - Joana MONTESINOS
+Création d'écarts de données cb_codepostal pour 1284 - Joana MONTESINOS
+Création d'écarts de données cb_ville pour 1284 - Joana MONTESINOS
+Licencié 750420239049 - Paule ARNAL => pas trouvé d'adhérent correspondant exactemement
+Création adherent Paule ARNAL
+Adresse mail paule.arnal@free.fr existe déjà 
+          pour 101 Paule ARNAL - Adhérent non créé 
+371 enregistrements dans base FFCAM dont 276 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 276 non traités 
+Fin de traitement 2022-12-16 02:15:04
+ Début de traitement 2022-10-16 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 16-12-2022 10:15:01 Cron
+Extraction SOAP : 371 adhérents extraits
+Attention erreur sur données de base pour 591 Clemence FAURE
+Licencié 750420239049 - Paule ARNAL => pas trouvé d'adhérent correspondant exactemement
+Création adherent Paule ARNAL
+Adresse mail paule.arnal@free.fr existe déjà 
+          pour 101 Paule ARNAL - Adhérent non créé 
+371 enregistrements dans base FFCAM dont 276 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 276 non traités 
+Fin de traitement 2022-12-16 10:15:04
+ Début de traitement 2022-02-16 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 16-12-2022 14:15:02 Cron
+Extraction SOAP : 373 adhérents extraits
+Attention erreur sur données de base pour 591 Clemence FAURE
+Licencié 750420239049 - Paule ARNAL => pas trouvé d'adhérent correspondant exactemement
+Création adherent Paule ARNAL
+Adresse mail paule.arnal@free.fr existe déjà 
+          pour 101 Paule ARNAL - Adhérent non créé 
+Licencié 750420239055 - Gauthier GIORDANO => pas trouvé d'adhérent correspondant exactemement
+Création adherent Gauthier GIORDANO
+Insertion de Gauthier GIORDANO dans user => id = 1644
+Insertion de Gauthier GIORDANO  dans usergroup_map
+Insertion dans comprofiler de Gauthier GIORDANO
+Licencié 750420239056 - Nicolas WAHL => pas trouvé d'adhérent correspondant exactemement
+Création adherent Nicolas WAHL
+Insertion de Nicolas WAHL dans user => id = 1645
+Insertion de Nicolas WAHL  dans usergroup_map
+Insertion dans comprofiler de Nicolas WAHL
+373 enregistrements dans base FFCAM dont 278 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 278 non traités 
+Fin de traitement 2022-12-16 14:15:04
+ Début de traitement 2022-06-16 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 16-12-2022 18:15:01 Cron
+Extraction SOAP : 373 adhérents extraits
+Attention erreur sur données de base pour 591 Clemence FAURE
+Licencié 750420239049 - Paule ARNAL => pas trouvé d'adhérent correspondant exactemement
+Création adherent Paule ARNAL
+Adresse mail paule.arnal@free.fr existe déjà 
+          pour 101 Paule ARNAL - Adhérent non créé 
+373 enregistrements dans base FFCAM dont 278 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 278 non traités 
+Fin de traitement 2022-12-16 18:15:04
+ Début de traitement 2022-10-16 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 16-12-2022 22:15:02 Cron
+Extraction SOAP : 373 adhérents extraits
+Attention erreur sur données de base pour 591 Clemence FAURE
+Licencié 750420239049 - Paule ARNAL => pas trouvé d'adhérent correspondant exactemement
+Création adherent Paule ARNAL
+Adresse mail paule.arnal@free.fr existe déjà 
+          pour 101 Paule ARNAL - Adhérent non créé 
+373 enregistrements dans base FFCAM dont 278 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 278 non traités 
+Fin de traitement 2022-12-16 22:15:04
+ 

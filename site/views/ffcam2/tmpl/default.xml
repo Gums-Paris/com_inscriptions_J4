@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="FFCAM">
+		<message>Rapprochement avec fichier FFCAM</message>
+	</layout>
+	<fields name="request">
+    <fieldset name="request">    
+        <field name="task" type="text"
+            label="Tâche"
+            required=""
+            description=""
+        />
+        <field name="layout" type="text"
+            label="Layout"
+            required=""
+            description=""
+        />
+    </fieldset>
+	</fields>
+</metadata>

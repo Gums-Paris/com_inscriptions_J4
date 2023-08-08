@@ -1,0 +1,51 @@
+Début de traitement 2022-02-05 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 05-10-2022 02:15:01 Cron
+Extraction SOAP : 350 adhérents extraits
+Mise à jour adhésion pour 1545 - Sebastien VANNESTE
+Création d'écarts de données cb_adresse pour 1545 - Sebastien VANNESTE
+Création d'écarts de données cb_codepostal pour 1545 - Sebastien VANNESTE
+Création d'écarts de données cb_ville pour 1545 - Sebastien VANNESTE
+350 enregistrements dans base FFCAM dont 183 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 182 non traités 
+Fin de traitement 2022-10-05 02:15:04
+ Début de traitement 2022-10-05 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 05-10-2022 10:15:01 Cron
+Extraction SOAP : 350 adhérents extraits
+Mise à jour adhésion pour 1480 - Hanae BONET
+Mise à jour adhésion pour 1558 - Samuel LE GOFF
+Données cb_ville rectifiée pour 1558 - Samuel LE GOFF
+350 enregistrements dans base FFCAM dont 185 à jour de licence
+0 nouvelles adhésions / 2 adhérents mis à jour / 183 non traités 
+Fin de traitement 2022-10-05 10:15:05
+ Début de traitement 2022-11-05 11:45:12
+Données session apiFFCAM vide - lancement API
+Import du 05-10-2022 11:45:12 Benoit D'HALLUIN (62)
+Extraction SOAP : 350 adhérents extraits
+350 enregistrements dans base FFCAM dont 183 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 183 non traités 
+Fin de traitement 2022-10-05 11:45:15
+ Début de traitement 2022-02-05 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 05-10-2022 14:15:01 Cron
+Extraction SOAP : 350 adhérents extraits
+Mise à jour adhésion pour 186 - Olivier HINCELIN
+350 enregistrements dans base FFCAM dont 184 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 183 non traités 
+Fin de traitement 2022-10-05 14:15:05
+ Début de traitement 2022-06-05 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 05-10-2022 18:15:01 Cron
+Extraction SOAP : 350 adhérents extraits
+350 enregistrements dans base FFCAM dont 184 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 184 non traités 
+Fin de traitement 2022-10-05 18:15:04
+ Début de traitement 2022-10-05 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 05-10-2022 22:15:01 Cron
+Extraction SOAP : 350 adhérents extraits
+350 enregistrements dans base FFCAM dont 184 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 184 non traités 
+Fin de traitement 2022-10-05 22:15:03
+ 

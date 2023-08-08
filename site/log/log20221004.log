@@ -1,0 +1,48 @@
+Début de traitement 2022-02-04 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 04-10-2022 02:15:01 Cron
+Extraction SOAP : 350 adhérents extraits
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+350 enregistrements dans base FFCAM dont 177 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 177 non traités 
+Fin de traitement 2022-10-04 02:15:03
+ Début de traitement 2022-10-04 10:15:02
+Données session apiFFCAM vide - lancement API
+Import du 04-10-2022 10:15:02 Cron
+Extraction SOAP : 350 adhérents extraits
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+350 enregistrements dans base FFCAM dont 177 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 177 non traités 
+Fin de traitement 2022-10-04 10:15:04
+ Début de traitement 2022-02-04 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 04-10-2022 14:15:02 Cron
+Extraction SOAP : 350 adhérents extraits
+Mise à jour adhésion pour 66 - Claude PASTRE
+Mise à jour adhésion pour 241 - Dominique PASTRE
+Mise à jour adhésion pour 1544 - Gabriel FOUGERON
+Création d'écarts de données cb_adresse pour 1544 - Gabriel FOUGERON
+Création d'écarts de données cb_codepostal pour 1544 - Gabriel FOUGERON
+Création d'écarts de données cb_ville pour 1544 - Gabriel FOUGERON
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+350 enregistrements dans base FFCAM dont 180 à jour de licence
+0 nouvelles adhésions / 3 adhérents mis à jour / 177 non traités 
+Fin de traitement 2022-10-04 14:15:05
+ Début de traitement 2022-06-04 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 04-10-2022 18:15:01 Cron
+Extraction SOAP : 350 adhérents extraits
+Mise à jour adhésion pour 1550 - Edith BOURSANGE
+Création d'écarts de données cb_mobile pour 1550 - Edith BOURSANGE
+350 enregistrements dans base FFCAM dont 181 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 180 non traités 
+Fin de traitement 2022-10-04 18:15:04
+ Début de traitement 2022-10-04 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 04-10-2022 22:15:01 Cron
+Extraction SOAP : 350 adhérents extraits
+Mise à jour adhésion pour 370 - Suzanne CREUZON
+350 enregistrements dans base FFCAM dont 182 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 181 non traités 
+Fin de traitement 2022-10-04 22:15:04
+ 

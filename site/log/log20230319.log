@@ -1,0 +1,40 @@
+Début de traitement 2023-02-19 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 19-03-2023 02:15:01 Cron
+Extraction SOAP : 392 adhérents extraits
+392 enregistrements dans base FFCAM dont 311 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 311 non traités 
+Fin de traitement 2023-03-19 02:15:04
+ Début de traitement 2023-10-19 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 19-03-2023 10:15:01 Cron
+Extraction SOAP : 392 adhérents extraits
+392 enregistrements dans base FFCAM dont 311 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 311 non traités 
+Fin de traitement 2023-03-19 10:15:05
+ Début de traitement 2023-02-19 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 19-03-2023 14:15:02 Cron
+Extraction SOAP : 392 adhérents extraits
+392 enregistrements dans base FFCAM dont 311 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 311 non traités 
+Fin de traitement 2023-03-19 14:15:05
+ Début de traitement 2023-06-19 18:15:02
+Données session apiFFCAM vide - lancement API
+Import du 19-03-2023 18:15:02 Cron
+Extraction SOAP : 392 adhérents extraits
+392 enregistrements dans base FFCAM dont 311 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 311 non traités 
+Fin de traitement 2023-03-19 18:15:05
+ Début de traitement 2023-10-19 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 19-03-2023 22:15:02 Cron
+Extraction SOAP : 392 adhérents extraits
+Création d'écarts de données cb_adresse pour 1550 - Edith BOURSANGE
+Création d'écarts de données cb_codepostal pour 1550 - Edith BOURSANGE
+Création d'écarts de données cb_ville pour 1550 - Edith BOURSANGE
+Création d'écarts de données cb_contactaccident pour 1550 - Edith BOURSANGE
+392 enregistrements dans base FFCAM dont 311 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 311 non traités 
+Fin de traitement 2023-03-19 22:15:05
+ 

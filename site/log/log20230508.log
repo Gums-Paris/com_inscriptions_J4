@@ -1,0 +1,46 @@
+Début de traitement 2023-02-08 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 08-05-2023 02:15:01 Cron
+Extraction SOAP : 394 adhérents extraits
+394 enregistrements dans base FFCAM dont 315 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 315 non traités 
+Fin de traitement 2023-05-08 02:15:04
+ Début de traitement 2023-10-08 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 08-05-2023 10:15:01 Cron
+Extraction SOAP : 394 adhérents extraits
+394 enregistrements dans base FFCAM dont 315 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 315 non traités 
+Fin de traitement 2023-05-08 10:15:04
+ Début de traitement 2023-02-08 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 08-05-2023 14:15:01 Cron
+Extraction SOAP : 394 adhérents extraits
+394 enregistrements dans base FFCAM dont 315 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 315 non traités 
+Fin de traitement 2023-05-08 14:15:04
+ Début de traitement 2023-06-08 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 08-05-2023 18:15:01 Cron
+Extraction SOAP : 396 adhérents extraits
+Licencié 750420239078 - Leon MIALOT => pas trouvé d'adhérent correspondant exactemement
+Création adherent Leon MIALOT
+Insertion de Leon MIALOT dans user => id = 1669
+Insertion de Leon MIALOT  dans usergroup_map
+Insertion dans comprofiler de Leon MIALOT
+Licencié 750420239079 - Arthur MIALOT => pas trouvé d'adhérent correspondant exactemement
+Création adherent Arthur MIALOT
+Insertion de Arthur MIALOT dans user => id = 1670
+Insertion de Arthur MIALOT  dans usergroup_map
+Insertion dans comprofiler de Arthur MIALOT
+396 enregistrements dans base FFCAM dont 317 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 317 non traités 
+Fin de traitement 2023-05-08 18:15:04
+ Début de traitement 2023-10-08 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 08-05-2023 22:15:01 Cron
+Extraction SOAP : 396 adhérents extraits
+396 enregistrements dans base FFCAM dont 317 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 317 non traités 
+Fin de traitement 2023-05-08 22:15:08
+ 

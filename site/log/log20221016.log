@@ -1,0 +1,43 @@
+Début de traitement 2022-02-16 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 16-10-2022 02:15:01 Cron
+Extraction SOAP : 352 adhérents extraits
+352 enregistrements dans base FFCAM dont 203 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 203 non traités 
+Fin de traitement 2022-10-16 02:15:03
+ Début de traitement 2022-10-16 10:15:02
+Données session apiFFCAM vide - lancement API
+Import du 16-10-2022 10:15:02 Cron
+Extraction SOAP : 352 adhérents extraits
+Mise à jour adhésion pour 1577 - Loic ESTEVE
+352 enregistrements dans base FFCAM dont 204 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 203 non traités 
+Fin de traitement 2022-10-16 10:15:04
+ Début de traitement 2022-02-16 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 16-10-2022 14:15:01 Cron
+Extraction SOAP : 352 adhérents extraits
+Modification d'écarts de données cb_mobile pour 1550 - Edith BOURSANGE
+352 enregistrements dans base FFCAM dont 204 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 204 non traités 
+Fin de traitement 2022-10-16 14:15:04
+ Début de traitement 2022-06-16 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 16-10-2022 18:15:01 Cron
+Extraction SOAP : 352 adhérents extraits
+352 enregistrements dans base FFCAM dont 204 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 204 non traités 
+Fin de traitement 2022-10-16 18:15:04
+ Début de traitement 2022-10-16 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 16-10-2022 22:15:01 Cron
+Extraction SOAP : 352 adhérents extraits
+Mise à jour adhésion pour 1494 - Stephane SARDA
+Mise à jour adhésion pour 1509 - Edouard ARGENSON
+Modification d'écarts de données cb_adresse pour 1509 - Edouard ARGENSON
+Données cb_adresse2 rectifiée pour 1509 - Edouard ARGENSON
+Données cb_ville rectifiée pour 1509 - Edouard ARGENSON
+352 enregistrements dans base FFCAM dont 206 à jour de licence
+0 nouvelles adhésions / 2 adhérents mis à jour / 204 non traités 
+Fin de traitement 2022-10-16 22:15:04
+ 

@@ -1,0 +1,50 @@
+Début de traitement 2022-02-29 02:15:02
+Données session apiFFCAM vide - lancement API
+Import du 29-09-2022 02:15:02 Cron
+Extraction SOAP : 345 adhérents extraits
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+345 enregistrements dans base FFCAM dont 154 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 154 non traités 
+Fin de traitement 2022-09-29 02:15:04
+ Début de traitement 2022-10-29 10:15:02
+Données session apiFFCAM vide - lancement API
+Import du 29-09-2022 10:15:02 Cron
+Extraction SOAP : 345 adhérents extraits
+Mise à jour adhésion pour 1525 - Jean-Pierre YIN
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+345 enregistrements dans base FFCAM dont 155 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 154 non traités 
+Fin de traitement 2022-09-29 10:15:05
+ Début de traitement 2022-02-29 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 29-09-2022 14:15:02 Cron
+Extraction SOAP : 345 adhérents extraits
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+Données email rectifiée pour 1617 - Liucija ADOMAITE
+Données cb_mobile rectifiée pour 1617 - Liucija ADOMAITE
+345 enregistrements dans base FFCAM dont 155 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 155 non traités 
+Fin de traitement 2022-09-29 14:15:04
+ Début de traitement 2022-06-29 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 29-09-2022 18:15:01 Cron
+Extraction SOAP : 345 adhérents extraits
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+345 enregistrements dans base FFCAM dont 155 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 155 non traités 
+Fin de traitement 2022-09-29 18:15:04
+ Début de traitement 2022-10-29 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 29-09-2022 22:15:01 Cron
+Extraction SOAP : 346 adhérents extraits
+Mise à jour adhésion pour 1385 - Valentin IOVENE
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+Licencié 750420239030 - Laure-Lou TREMBLAY => pas trouvé d'adhérent correspondant exactemement
+Création adherent Laure-Lou TREMBLAY
+Insertion de Laure-Lou TREMBLAY dans user => id = 1620
+Insertion de Laure-Lou TREMBLAY  dans usergroup_map
+Insertion dans comprofiler de Laure-Lou TREMBLAY
+346 enregistrements dans base FFCAM dont 157 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 156 non traités 
+Fin de traitement 2022-09-29 22:15:03
+ 

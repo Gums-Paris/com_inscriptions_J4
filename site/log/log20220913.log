@@ -1,0 +1,64 @@
+Début de traitement 2022-02-13 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 13-09-2022 02:15:01 Cron
+Extraction SOAP : 335 adhérents extraits
+Licencié 750420239017 - Brice RAMI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Brice RAMI
+Adresse mail brice.rami@gmail.com existe déjà 
+          pour 1602 Brice RAMI - Adhérent non créé 
+Création d'écarts de données cb_adresse pour 1608 - Matthieu KAPRY
+335 enregistrements dans base FFCAM dont 90 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 90 non traités 
+Fin de traitement 2022-09-13 02:15:03
+ Début de traitement 2022-10-13 10:15:02
+Données session apiFFCAM vide - lancement API
+Import du 13-09-2022 10:15:02 Cron
+Extraction SOAP : 335 adhérents extraits
+Mise à jour adhésion pour 338 - Jean BORDEAUX-MONTRIEUX
+Modification d'écarts de données cb_contactaccident pour 338 - Jean BORDEAUX-MONTRIEUX
+Licencié 750420239017 - Brice RAMI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Brice RAMI
+Adresse mail brice.rami@gmail.com existe déjà 
+          pour 1602 Brice RAMI - Adhérent non créé 
+335 enregistrements dans base FFCAM dont 91 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 90 non traités 
+Fin de traitement 2022-09-13 10:15:04
+ Début de traitement 2022-02-13 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 13-09-2022 14:15:01 Cron
+Extraction SOAP : 335 adhérents extraits
+Licencié 750420239017 - Brice RAMI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Brice RAMI
+Adresse mail brice.rami@gmail.com existe déjà 
+          pour 1602 Brice RAMI - Adhérent non créé 
+335 enregistrements dans base FFCAM dont 91 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 91 non traités 
+Fin de traitement 2022-09-13 14:15:03
+ Début de traitement 2022-06-13 18:15:02
+Données session apiFFCAM vide - lancement API
+Import du 13-09-2022 18:15:02 Cron
+Extraction SOAP : 335 adhérents extraits
+Mise à jour adhésion pour 1523 - Jean-Loup HANNEBICQ
+Données cb_mobile rectifiée pour 1523 - Jean-Loup HANNEBICQ
+Données cb_contactaccident rectifiée pour 1523 - Jean-Loup HANNEBICQ
+Mise à jour adhésion pour 1585 - Marijana MILICEVIC
+Création d'écarts de données cb_adresse pour 1585 - Marijana MILICEVIC
+Licencié 750420239017 - Brice RAMI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Brice RAMI
+Adresse mail brice.rami@gmail.com existe déjà 
+          pour 1602 Brice RAMI - Adhérent non créé 
+335 enregistrements dans base FFCAM dont 93 à jour de licence
+0 nouvelles adhésions / 2 adhérents mis à jour / 91 non traités 
+Fin de traitement 2022-09-13 18:15:04
+ Début de traitement 2022-10-13 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 13-09-2022 22:15:02 Cron
+Extraction SOAP : 335 adhérents extraits
+Licencié 750420239017 - Brice RAMI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Brice RAMI
+Adresse mail brice.rami@gmail.com existe déjà 
+          pour 1602 Brice RAMI - Adhérent non créé 
+335 enregistrements dans base FFCAM dont 93 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 93 non traités 
+Fin de traitement 2022-09-13 22:15:04
+ 

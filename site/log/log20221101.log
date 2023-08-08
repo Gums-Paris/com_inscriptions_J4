@@ -1,0 +1,47 @@
+Début de traitement 2022-02-01 02:15:02
+Données session apiFFCAM vide - lancement API
+Import du 01-11-2022 02:15:02 Cron
+Extraction SOAP : 357 adhérents extraits
+357 enregistrements dans base FFCAM dont 231 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 231 non traités 
+Fin de traitement 2022-11-01 02:15:05
+ Début de traitement 2022-10-01 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 01-11-2022 10:15:01 Cron
+Extraction SOAP : 358 adhérents extraits
+Mise à jour adhésion pour 835 - Marion PECHEUR
+Création d'écarts de données cb_adresse pour 835 - Marion PECHEUR
+Création d'écarts de données cb_adresse2 pour 835 - Marion PECHEUR
+Création d'écarts de données cb_adresse pour 1349 - Clement CARRIER
+Création d'écarts de données cb_codepostal pour 1349 - Clement CARRIER
+Création d'écarts de données cb_ville pour 1349 - Clement CARRIER
+Licencié 750420239041 - Adrien FRANÇOIS => pas trouvé d'adhérent correspondant exactemement
+Création adherent Adrien FRANÇOIS
+Insertion de Adrien FRANÇOIS dans user => id = 1629
+Insertion de Adrien FRANÇOIS  dans usergroup_map
+Insertion dans comprofiler de Adrien FRANÇOIS
+358 enregistrements dans base FFCAM dont 233 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 232 non traités 
+Fin de traitement 2022-11-01 10:15:04
+ Début de traitement 2022-02-01 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 01-11-2022 14:15:02 Cron
+Extraction SOAP : 358 adhérents extraits
+358 enregistrements dans base FFCAM dont 233 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 233 non traités 
+Fin de traitement 2022-11-01 14:15:04
+ Début de traitement 2022-06-01 18:15:02
+Données session apiFFCAM vide - lancement API
+Import du 01-11-2022 18:15:02 Cron
+Extraction SOAP : 358 adhérents extraits
+358 enregistrements dans base FFCAM dont 233 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 233 non traités 
+Fin de traitement 2022-11-01 18:15:04
+ Début de traitement 2022-10-01 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 01-11-2022 22:15:02 Cron
+Extraction SOAP : 358 adhérents extraits
+358 enregistrements dans base FFCAM dont 233 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 233 non traités 
+Fin de traitement 2022-11-01 22:15:04
+ 

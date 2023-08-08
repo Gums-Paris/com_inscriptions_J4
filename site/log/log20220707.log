@@ -1,0 +1,65 @@
+Début de traitement 2022-02-07 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 07-07-2022 02:15:01 Cron
+Extraction SOAP : 450 adhérents extraits
+Licencié 750420220011 - Pierre-Emmanue BARBIER => trouvé adhérent proche : 1586 Pierre-Emmanuel BARBIER
+Licencié 750420229091 - Gabin RONAYETTE => pas trouvé d'adhérent correspondant exactemement
+Création adherent Gabin RONAYETTE
+Adresse mail  existe déjà 
+          pour 1568 Victor LOUHAUT - Adhérent non créé 
+450 enregistrements dans base FFCAM dont 314 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 314 non traités 
+Fin de traitement 2022-02-07 02:15:05
+ Début de traitement 2022-10-07 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 07-07-2022 10:15:01 Cron
+Extraction SOAP : 450 adhérents extraits
+Licencié 750420220011 - Pierre-Emmanue BARBIER => trouvé adhérent proche : 1586 Pierre-Emmanuel BARBIER
+Licencié 750420229091 - Gabin RONAYETTE => pas trouvé d'adhérent correspondant exactemement
+Création adherent Gabin RONAYETTE
+Adresse mail  existe déjà 
+          pour 1568 Victor LOUHAUT - Adhérent non créé 
+450 enregistrements dans base FFCAM dont 314 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 314 non traités 
+Fin de traitement 2022-10-07 10:15:05
+ Début de traitement 2022-02-07 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 07-07-2022 14:15:02 Cron
+Extraction SOAP : 450 adhérents extraits
+Licencié 750420220011 - Pierre-Emmanue BARBIER => trouvé adhérent proche : 1586 Pierre-Emmanuel BARBIER
+Licencié 750420229091 - Gabin RONAYETTE => pas trouvé d'adhérent correspondant exactemement
+Création adherent Gabin RONAYETTE
+Adresse mail  existe déjà 
+          pour 1568 Victor LOUHAUT - Adhérent non créé 
+450 enregistrements dans base FFCAM dont 314 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 314 non traités 
+Fin de traitement 2022-02-07 14:15:06
+ Début de traitement 2022-06-07 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 07-07-2022 18:15:01 Cron
+Extraction SOAP : 450 adhérents extraits
+Licencié 750420220011 - Pierre-Emmanue BARBIER => trouvé adhérent proche : 1586 Pierre-Emmanuel BARBIER
+Licencié 750420229091 - Gabin RONAYETTE => pas trouvé d'adhérent correspondant exactemement
+Création adherent Gabin RONAYETTE
+Adresse mail  existe déjà 
+          pour 1568 Victor LOUHAUT - Adhérent non créé 
+450 enregistrements dans base FFCAM dont 314 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 314 non traités 
+Fin de traitement 2022-06-07 18:15:05
+ Début de traitement 2022-10-07 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 07-07-2022 22:15:02 Cron
+Extraction SOAP : 450 adhérents extraits
+Licencié 750420220011 - Pierre-Emmanue BARBIER => trouvé adhérent proche : 1586 Pierre-Emmanuel BARBIER
+Licencié 750420229091 - Gabin RONAYETTE => pas trouvé d'adhérent correspondant exactemement
+Création adherent Gabin RONAYETTE
+Adresse mail  existe déjà 
+          pour 1568 Victor LOUHAUT - Adhérent non créé 
+Modification d'écarts de données cb_adresse pour 494 - Angela RUIZ LAZARO
+Création d'écarts de données cb_pays pour 494 - Angela RUIZ LAZARO
+Données cb_codepostal rectifiée pour 494 - Angela RUIZ LAZARO
+Données cb_ville rectifiée pour 494 - Angela RUIZ LAZARO
+450 enregistrements dans base FFCAM dont 314 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 314 non traités 
+Fin de traitement 2022-10-07 22:15:06
+ 

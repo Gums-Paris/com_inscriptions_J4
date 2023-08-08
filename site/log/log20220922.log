@@ -1,0 +1,79 @@
+Début de traitement 2022-02-22 02:15:02
+Données session apiFFCAM vide - lancement API
+Import du 22-09-2022 02:15:02 Cron
+Extraction SOAP : 343 adhérents extraits
+Licencié 750420239020 - Pierre-Emanuel BARBIER => trouvé adhérent proche : 1586 Pierre-Emmanuel BARBIER
+Licencié 750420239026 - Liucija ADOMAITE => pas trouvé d'adhérent correspondant exactemement
+Création adherent Liucija ADOMAITE
+Adresse mail adomaitislaurynas@gmail.com existe déjà 
+          pour 1615 Laurynas ADOMAITIS - Adhérent non créé 
+343 enregistrements dans base FFCAM dont 132 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 132 non traités 
+Fin de traitement 2022-09-22 02:15:04
+ Début de traitement 2022-10-22 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 22-09-2022 10:15:01 Cron
+Extraction SOAP : 343 adhérents extraits
+Licencié 750420239020 - Pierre-Emanuel BARBIER => trouvé adhérent proche : 1586 Pierre-Emmanuel BARBIER
+Licencié 750420239026 - Liucija ADOMAITE => pas trouvé d'adhérent correspondant exactemement
+Création adherent Liucija ADOMAITE
+Adresse mail adomaitislaurynas@gmail.com existe déjà 
+          pour 1615 Laurynas ADOMAITIS - Adhérent non créé 
+343 enregistrements dans base FFCAM dont 132 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 132 non traités 
+Fin de traitement 2022-09-22 10:15:03
+ Début de traitement 2022-02-22 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 22-09-2022 14:15:01 Cron
+Extraction SOAP : 343 adhérents extraits
+Mise à jour adhésion pour 232 - Anne MONTCOUQUIOL
+Licencié 750420239020 - Pierre-Emanuel BARBIER => trouvé adhérent proche : 1586 Pierre-Emmanuel BARBIER
+Licencié 750420239026 - Liucija ADOMAITE => pas trouvé d'adhérent correspondant exactemement
+Création adherent Liucija ADOMAITE
+Adresse mail adomaitislaurynas@gmail.com existe déjà 
+          pour 1615 Laurynas ADOMAITIS - Adhérent non créé 
+343 enregistrements dans base FFCAM dont 133 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 132 non traités 
+Fin de traitement 2022-09-22 14:15:03
+ Début de traitement 2022-06-22 18:15:02
+Données session apiFFCAM vide - lancement API
+Import du 22-09-2022 18:15:02 Cron
+Extraction SOAP : 343 adhérents extraits
+Licencié 750420239020 - Pierre-Emanuel BARBIER => trouvé adhérent proche : 1586 Pierre-Emmanuel BARBIER
+Licencié 750420239026 - Liucija ADOMAITE => pas trouvé d'adhérent correspondant exactemement
+Création adherent Liucija ADOMAITE
+Adresse mail adomaitislaurynas@gmail.com existe déjà 
+          pour 1615 Laurynas ADOMAITIS - Adhérent non créé 
+343 enregistrements dans base FFCAM dont 133 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 133 non traités 
+Fin de traitement 2022-09-22 18:15:04
+ Début de traitement 2022-10-22 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 22-09-2022 22:15:02 Cron
+Extraction SOAP : 343 adhérents extraits
+Mise à jour adhésion pour 238 - Francois NOUSBAUM
+Mise à jour adhésion pour 1102 - Clarisse VILLEDARY
+Modification d'écarts de données cb_contactaccident pour 1102 - Clarisse VILLEDARY
+Données cb_mobile rectifiée pour 1102 - Clarisse VILLEDARY
+Mise à jour adhésion pour 1287 - Augustin PARRET-FREAUD
+Licencié 750420239020 - Pierre-Emanuel BARBIER => trouvé adhérent proche : 1586 Pierre-Emmanuel BARBIER
+Licencié 750420239026 - Liucija ADOMAITE => pas trouvé d'adhérent correspondant exactemement
+Création adherent Liucija ADOMAITE
+Adresse mail adomaitislaurynas@gmail.com existe déjà 
+          pour 1615 Laurynas ADOMAITIS - Adhérent non créé 
+343 enregistrements dans base FFCAM dont 136 à jour de licence
+0 nouvelles adhésions / 3 adhérents mis à jour / 133 non traités 
+Fin de traitement 2022-09-22 22:15:04
+ Début de traitement 2022-11-22 23:59:45
+Données session apiFFCAM vide - lancement API
+Import du 22-09-2022 23:59:45 Benoit D'HALLUIN (62)
+Extraction SOAP : 343 adhérents extraits
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+Licencié 750420239026 - Liucija ADOMAITE => pas trouvé d'adhérent correspondant exactemement
+Création adherent Liucija ADOMAITE
+Adresse mail adomaitislaurynas@gmail.com existe déjà 
+          pour 1615 Laurynas ADOMAITIS - Adhérent non créé 
+343 enregistrements dans base FFCAM dont 136 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 136 non traités 
+Fin de traitement 2022-09-22 23:59:47
+ 

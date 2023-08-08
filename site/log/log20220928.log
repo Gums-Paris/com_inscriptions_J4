@@ -1,0 +1,42 @@
+Début de traitement 2022-02-28 02:15:02
+Données session apiFFCAM vide - lancement API
+Import du 28-09-2022 02:15:02 Cron
+Extraction SOAP : 345 adhérents extraits
+Mise à jour adhésion pour 276 - Jean-Luc RUDKIEWICZ
+Mise à jour adhésion pour 194 - Pascale LACOTE
+Mise à jour adhésion pour 1105 - Loic RAUCY
+Mise à jour adhésion pour 1234 - Theo RUDKIEWICZ
+Création d'écarts de données cb_mobile pour 1234 - Theo RUDKIEWICZ
+Modification d'écarts de données cb_contactaccident pour 1234 - Theo RUDKIEWICZ
+Données cb_adresse rectifiée pour 1234 - Theo RUDKIEWICZ
+Données cb_codepostal rectifiée pour 1234 - Theo RUDKIEWICZ
+Données cb_ville rectifiée pour 1234 - Theo RUDKIEWICZ
+Mise à jour adhésion pour 1353 - Michel POMPEI
+Mise à jour adhésion pour 1354 - Catherine POMPEI
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+Licencié 750420239029 - Jérôme VIZCAINO => pas trouvé d'adhérent correspondant exactemement
+Création adherent Jérôme VIZCAINO
+Insertion de Jérôme VIZCAINO dans user => id = 1618
+Insertion de Jérôme VIZCAINO  dans usergroup_map
+Insertion dans comprofiler de Jérôme VIZCAINO
+345 enregistrements dans base FFCAM dont 154 à jour de licence
+0 nouvelles adhésions / 6 adhérents mis à jour / 148 non traités 
+Fin de traitement 2022-09-28 02:15:04
+ Début de traitement 2022-10-28 10:15:02
+Données session apiFFCAM vide - lancement API
+Import du 28-09-2022 10:15:02 Cron
+Extraction SOAP : 345 adhérents extraits
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+Création d'écarts de données cb_adresse pour 1618 - Jerome VIZCAINO
+345 enregistrements dans base FFCAM dont 154 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 154 non traités 
+Fin de traitement 2022-09-28 10:15:04
+ Début de traitement 2022-02-28 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 28-09-2022 14:15:01 Cron
+Extraction SOAP : 345 adhérents extraits
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+345 enregistrements dans base FFCAM dont 154 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 154 non traités 
+Fin de traitement 2022-09-28 14:15:03
+ 

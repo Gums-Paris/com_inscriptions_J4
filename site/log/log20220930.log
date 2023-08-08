@@ -1,0 +1,57 @@
+Début de traitement 2022-02-30 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 30-09-2022 02:15:01 Cron
+Extraction SOAP : 346 adhérents extraits
+Mise à jour adhésion pour 1121 - Frederique CHARLES
+Données cb_adresse rectifiée pour 1121 - Frederique CHARLES
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+346 enregistrements dans base FFCAM dont 158 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 157 non traités 
+Fin de traitement 2022-09-30 02:15:03
+ Début de traitement 2022-10-30 10:15:02
+Données session apiFFCAM vide - lancement API
+Import du 30-09-2022 10:15:02 Cron
+Extraction SOAP : 347 adhérents extraits
+Mise à jour adhésion pour 118 - Jean-Pierre CANCEILL
+Mise à jour adhésion pour 158 - Isabelle ENTRECANALES
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+Licencié 750420239031 - Emmanuel VAZQUEZ => trouvé adhérent correspondant exactemement  - ancien n° licence 750420129004
+Adhérent  - Emmanuel VAZQUEZ => mise à jour n° de licence 750420239031
+Mise à jour adhésion pour 565 - Emmanuel VAZQUEZ
+Création d'écarts de données cb_adresse pour 565 - Emmanuel VAZQUEZ
+Création d'écarts de données cb_mobile pour 565 - Emmanuel VAZQUEZ
+Création d'écarts de données cb_telfixe pour 565 - Emmanuel VAZQUEZ
+Création d'écarts de données cb_contactaccident pour 565 - Emmanuel VAZQUEZ
+347 enregistrements dans base FFCAM dont 161 à jour de licence
+0 nouvelles adhésions / 3 adhérents mis à jour / 158 non traités 
+Fin de traitement 2022-09-30 10:15:04
+ Début de traitement 2022-02-30 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 30-09-2022 14:15:02 Cron
+Extraction SOAP : 348 adhérents extraits
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+Licencié 750420239032 - Pascal POIRSON => trouvé adhérent correspondant exactemement  - ancien n° licence 750420209013
+Adhérent  - Pascal POIRSON => mise à jour n° de licence 750420239032
+Mise à jour adhésion pour 1383 - Pascal POIRSON
+Création d'écarts de données cb_adresse pour 1383 - Pascal POIRSON
+Création d'écarts de données cb_contactaccident pour 1383 - Pascal POIRSON
+348 enregistrements dans base FFCAM dont 162 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 161 non traités 
+Fin de traitement 2022-09-30 14:15:04
+ Début de traitement 2022-06-30 18:15:02
+Données session apiFFCAM vide - lancement API
+Import du 30-09-2022 18:15:02 Cron
+Extraction SOAP : 348 adhérents extraits
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+348 enregistrements dans base FFCAM dont 162 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 162 non traités 
+Fin de traitement 2022-09-30 18:15:04
+ Début de traitement 2022-10-30 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 30-09-2022 22:15:01 Cron
+Extraction SOAP : 348 adhérents extraits
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+348 enregistrements dans base FFCAM dont 162 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 162 non traités 
+Fin de traitement 2022-09-30 22:15:04
+ 

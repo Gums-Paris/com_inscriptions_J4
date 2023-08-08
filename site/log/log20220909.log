@@ -1,0 +1,58 @@
+Début de traitement 2022-02-09 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 09-09-2022 02:15:01 Cron
+Extraction SOAP : 328 adhérents extraits
+Licencié 750420239012 - Baraka ABOUBACAR => pas trouvé d'adhérent correspondant exactemement
+Création adherent Baraka ABOUBACAR
+Insertion de Baraka ABOUBACAR dans user => id = 1603
+Insertion de Baraka ABOUBACAR  dans usergroup_map
+Insertion dans comprofiler de Baraka ABOUBACAR
+328 enregistrements dans base FFCAM dont 67 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 67 non traités 
+Fin de traitement 2022-09-09 02:15:03
+ Début de traitement 2022-10-09 10:15:02
+Données session apiFFCAM vide - lancement API
+Import du 09-09-2022 10:15:02 Cron
+Extraction SOAP : 328 adhérents extraits
+328 enregistrements dans base FFCAM dont 67 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 67 non traités 
+Fin de traitement 2022-09-09 10:15:03
+ Début de traitement 2022-02-09 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 09-09-2022 14:15:02 Cron
+Extraction SOAP : 329 adhérents extraits
+Mise à jour adhésion pour 1578 - Alix WEIL
+Licencié 750420239013 - Franziska BRIGHT => pas trouvé d'adhérent correspondant exactemement
+Création adherent Franziska BRIGHT
+Insertion de Franziska BRIGHT dans user => id = 1604
+Insertion de Franziska BRIGHT  dans usergroup_map
+Insertion dans comprofiler de Franziska BRIGHT
+329 enregistrements dans base FFCAM dont 69 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 68 non traités 
+Fin de traitement 2022-09-09 14:15:04
+ Début de traitement 2022-06-09 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 09-09-2022 18:15:01 Cron
+Extraction SOAP : 329 adhérents extraits
+Mise à jour adhésion pour 1239 - Adeline AGUT
+Mise à jour adhésion pour 1331 - Francois MEYER
+Mise à jour adhésion pour 1371 - Adrienne DE BAZELAIRE
+Données cb_adresse rectifiée pour 1371 - Adrienne DE BAZELAIRE
+Données cb_codepostal rectifiée pour 1371 - Adrienne DE BAZELAIRE
+Création d'écarts de données cb_adresse2 pour 1604 - Franziska BRIGHT
+329 enregistrements dans base FFCAM dont 72 à jour de licence
+0 nouvelles adhésions / 3 adhérents mis à jour / 69 non traités 
+Fin de traitement 2022-09-09 18:15:03
+ Début de traitement 2022-10-09 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 09-09-2022 22:15:02 Cron
+Extraction SOAP : 330 adhérents extraits
+Licencié 750420239014 - Emilie SCHWARZ => pas trouvé d'adhérent correspondant exactemement
+Création adherent Emilie SCHWARZ
+Insertion de Emilie SCHWARZ dans user => id = 1605
+Insertion de Emilie SCHWARZ  dans usergroup_map
+Insertion dans comprofiler de Emilie SCHWARZ
+330 enregistrements dans base FFCAM dont 73 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 73 non traités 
+Fin de traitement 2022-09-09 22:15:04
+ 

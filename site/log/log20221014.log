@@ -1,0 +1,44 @@
+Début de traitement 2022-02-14 02:15:02
+Données session apiFFCAM vide - lancement API
+Import du 14-10-2022 02:15:02 Cron
+Extraction SOAP : 351 adhérents extraits
+351 enregistrements dans base FFCAM dont 197 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 197 non traités 
+Fin de traitement 2022-10-14 02:15:04
+ Début de traitement 2022-10-14 10:15:02
+Données session apiFFCAM vide - lancement API
+Import du 14-10-2022 10:15:02 Cron
+Extraction SOAP : 351 adhérents extraits
+351 enregistrements dans base FFCAM dont 197 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 197 non traités 
+Fin de traitement 2022-10-14 10:15:04
+ Début de traitement 2022-02-14 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 14-10-2022 14:15:02 Cron
+Extraction SOAP : 351 adhérents extraits
+Mise à jour adhésion pour 235 - Luc MUSSON-GENON
+Mise à jour adhésion pour 240 - Evelyne ODIER
+Mise à jour adhésion pour 1325 - Eric DUTRIEVOZ
+351 enregistrements dans base FFCAM dont 200 à jour de licence
+0 nouvelles adhésions / 3 adhérents mis à jour / 197 non traités 
+Fin de traitement 2022-10-14 14:15:05
+ Début de traitement 2022-06-14 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 14-10-2022 18:15:01 Cron
+Extraction SOAP : 352 adhérents extraits
+Licencié 750420239036 - Valentin DE BEAUVOIR => pas trouvé d'adhérent correspondant exactemement
+Création adherent Valentin DE BEAUVOIR
+Insertion de Valentin DE BEAUVOIR dans user => id = 1623
+Insertion de Valentin DE BEAUVOIR  dans usergroup_map
+Insertion dans comprofiler de Valentin DE BEAUVOIR
+352 enregistrements dans base FFCAM dont 201 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 201 non traités 
+Fin de traitement 2022-10-14 18:15:04
+ Début de traitement 2022-10-14 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 14-10-2022 22:15:01 Cron
+Extraction SOAP : 352 adhérents extraits
+352 enregistrements dans base FFCAM dont 201 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 201 non traités 
+Fin de traitement 2022-10-14 22:15:07
+ 

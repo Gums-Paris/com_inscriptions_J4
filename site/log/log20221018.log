@@ -1,0 +1,42 @@
+Début de traitement 2022-02-18 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 18-10-2022 02:15:01 Cron
+Extraction SOAP : 352 adhérents extraits
+352 enregistrements dans base FFCAM dont 207 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 207 non traités 
+Fin de traitement 2022-10-18 02:15:04
+ Début de traitement 2022-10-18 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 18-10-2022 10:15:01 Cron
+Extraction SOAP : 352 adhérents extraits
+352 enregistrements dans base FFCAM dont 207 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 207 non traités 
+Fin de traitement 2022-10-18 10:15:04
+ Début de traitement 2022-02-18 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 18-10-2022 14:15:01 Cron
+Extraction SOAP : 352 adhérents extraits
+352 enregistrements dans base FFCAM dont 207 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 207 non traités 
+Fin de traitement 2022-10-18 14:15:04
+ Début de traitement 2022-06-18 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 18-10-2022 18:15:01 Cron
+Extraction SOAP : 353 adhérents extraits
+Licencié 750420239037 - Thomas CARVES => pas trouvé d'adhérent correspondant exactemement
+Création adherent Thomas CARVES
+Insertion de Thomas CARVES dans user => id = 1624
+Insertion de Thomas CARVES  dans usergroup_map
+Insertion dans comprofiler de Thomas CARVES
+353 enregistrements dans base FFCAM dont 208 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 208 non traités 
+Fin de traitement 2022-10-18 18:15:04
+ Début de traitement 2022-10-18 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 18-10-2022 22:15:01 Cron
+Extraction SOAP : 353 adhérents extraits
+Création d'écarts de données cb_adresse pour 1624 - Thomas CARVES
+353 enregistrements dans base FFCAM dont 208 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 208 non traités 
+Fin de traitement 2022-10-18 22:15:04
+ 

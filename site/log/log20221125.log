@@ -1,0 +1,38 @@
+Début de traitement 2022-02-25 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 25-11-2022 02:15:01 Cron
+Extraction SOAP : 365 adhérents extraits
+365 enregistrements dans base FFCAM dont 261 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 261 non traités 
+Fin de traitement 2022-11-25 02:15:04
+ Début de traitement 2022-10-25 10:15:02
+Données session apiFFCAM vide - lancement API
+Import du 25-11-2022 10:15:02 Cron
+Extraction SOAP : 365 adhérents extraits
+365 enregistrements dans base FFCAM dont 261 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 261 non traités 
+Fin de traitement 2022-11-25 10:15:05
+ Début de traitement 2022-02-25 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 25-11-2022 14:15:01 Cron
+Extraction SOAP : 365 adhérents extraits
+365 enregistrements dans base FFCAM dont 261 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 261 non traités 
+Fin de traitement 2022-11-25 14:15:04
+ Début de traitement 2022-06-25 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 25-11-2022 18:15:01 Cron
+Extraction SOAP : 365 adhérents extraits
+Mise à jour adhésion pour 489 - Guillaume SAUCEREAU
+Modification d'écarts de données cb_contactaccident pour 489 - Guillaume SAUCEREAU
+365 enregistrements dans base FFCAM dont 262 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 261 non traités 
+Fin de traitement 2022-11-25 18:15:04
+ Début de traitement 2022-10-25 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 25-11-2022 22:15:02 Cron
+Extraction SOAP : 365 adhérents extraits
+365 enregistrements dans base FFCAM dont 262 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 262 non traités 
+Fin de traitement 2022-11-25 22:15:04
+ 

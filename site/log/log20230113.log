@@ -1,0 +1,69 @@
+Début de traitement 2023-02-13 02:15:02
+Données session apiFFCAM vide - lancement API
+Import du 13-01-2023 02:15:02 Cron
+Extraction SOAP : 382 adhérents extraits
+Attention erreur sur données de base pour 591 Clemence FAURE
+Licencié 750420239049 - Paule ARNAL => pas trouvé d'adhérent correspondant exactemement
+Création adherent Paule ARNAL
+Adresse mail paule.arnal@free.fr existe déjà 
+          pour 101 Paule ARNAL - Adhérent non créé 
+382 enregistrements dans base FFCAM dont 295 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 295 non traités 
+Fin de traitement 2023-01-13 02:15:04
+ Début de traitement 2023-10-13 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 13-01-2023 10:15:01 Cron
+Extraction SOAP : 382 adhérents extraits
+Attention erreur sur données de base pour 591 Clemence FAURE
+Création d'écarts de données cb_adresse pour 1529 - Lucie GARDIES
+Création d'écarts de données cb_codepostal pour 1529 - Lucie GARDIES
+Création d'écarts de données cb_mobile pour 1577 - Loic ESTEVE
+Licencié 750420239049 - Paule ARNAL => pas trouvé d'adhérent correspondant exactemement
+Création adherent Paule ARNAL
+Adresse mail paule.arnal@free.fr existe déjà 
+          pour 101 Paule ARNAL - Adhérent non créé 
+382 enregistrements dans base FFCAM dont 295 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 295 non traités 
+Fin de traitement 2023-01-13 10:15:08
+ Début de traitement 2023-02-13 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 13-01-2023 14:15:01 Cron
+Extraction SOAP : 382 adhérents extraits
+Attention erreur sur données de base pour 591 Clemence FAURE
+Licencié 750420239049 - Paule ARNAL => pas trouvé d'adhérent correspondant exactemement
+Création adherent Paule ARNAL
+Adresse mail paule.arnal@free.fr existe déjà 
+          pour 101 Paule ARNAL - Adhérent non créé 
+382 enregistrements dans base FFCAM dont 295 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 295 non traités 
+Fin de traitement 2023-01-13 14:15:04
+ Début de traitement 2023-06-13 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 13-01-2023 18:15:01 Cron
+Extraction SOAP : 383 adhérents extraits
+Attention erreur sur données de base pour 591 Clemence FAURE
+Licencié 750420239049 - Paule ARNAL => pas trouvé d'adhérent correspondant exactemement
+Création adherent Paule ARNAL
+Adresse mail paule.arnal@free.fr existe déjà 
+          pour 101 Paule ARNAL - Adhérent non créé 
+Licencié 750420239066 - Theo HUURNEMAN => pas trouvé d'adhérent correspondant exactemement
+Création adherent Theo HUURNEMAN
+Insertion de Theo HUURNEMAN dans user => id = 1655
+Insertion de Theo HUURNEMAN  dans usergroup_map
+Insertion dans comprofiler de Theo HUURNEMAN
+383 enregistrements dans base FFCAM dont 296 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 296 non traités 
+Fin de traitement 2023-01-13 18:15:04
+ Début de traitement 2023-10-13 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 13-01-2023 22:15:01 Cron
+Extraction SOAP : 383 adhérents extraits
+Attention erreur sur données de base pour 591 Clemence FAURE
+Licencié 750420239049 - Paule ARNAL => pas trouvé d'adhérent correspondant exactemement
+Création adherent Paule ARNAL
+Adresse mail paule.arnal@free.fr existe déjà 
+          pour 101 Paule ARNAL - Adhérent non créé 
+383 enregistrements dans base FFCAM dont 296 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 296 non traités 
+Fin de traitement 2023-01-13 22:15:04
+ 

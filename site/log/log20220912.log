@@ -1,0 +1,81 @@
+Début de traitement 2022-02-12 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 12-09-2022 02:15:01 Cron
+Extraction SOAP : 333 adhérents extraits
+Licencié 750420239017 - Brice RAMI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Brice RAMI
+Adresse mail brice.rami@gmail.com existe déjà 
+          pour 1602 Brice RAMI - Adhérent non créé 
+333 enregistrements dans base FFCAM dont 82 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 82 non traités 
+Fin de traitement 2022-09-12 02:15:03
+ Début de traitement 2022-10-12 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 12-09-2022 10:15:01 Cron
+Extraction SOAP : 334 adhérents extraits
+Licencié 750420239017 - Brice RAMI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Brice RAMI
+Adresse mail brice.rami@gmail.com existe déjà 
+          pour 1602 Brice RAMI - Adhérent non créé 
+Licencié 750420239018 - Maud RICATEAU => trouvé adhérent correspondant exactemement  - ancien n° licence 750420219043
+Adhérent  - Maud RICATEAU => mise à jour n° de licence 750420239018
+Mise à jour adhésion pour 1483 - Maud RICATEAU
+Création d'écarts de données cb_adresse pour 1483 - Maud RICATEAU
+Création d'écarts de données cb_codepostal pour 1483 - Maud RICATEAU
+Création d'écarts de données cb_ville pour 1483 - Maud RICATEAU
+Création d'écarts de données cb_contactaccident pour 1483 - Maud RICATEAU
+334 enregistrements dans base FFCAM dont 83 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 82 non traités 
+Fin de traitement 2022-09-12 10:15:03
+ Début de traitement 2022-02-12 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 12-09-2022 14:15:01 Cron
+Extraction SOAP : 334 adhérents extraits
+Licencié 750420239017 - Brice RAMI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Brice RAMI
+Adresse mail brice.rami@gmail.com existe déjà 
+          pour 1602 Brice RAMI - Adhérent non créé 
+334 enregistrements dans base FFCAM dont 83 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 83 non traités 
+Fin de traitement 2022-09-12 14:15:03
+ Début de traitement 2022-06-12 18:15:02
+Données session apiFFCAM vide - lancement API
+Import du 12-09-2022 18:15:02 Cron
+Extraction SOAP : 334 adhérents extraits
+Mise à jour adhésion pour 537 - Sylvain DOUSSOT
+Modification d'écarts de données cb_adresse pour 537 - Sylvain DOUSSOT
+Mise à jour adhésion pour 850 - Charlotte MAY
+Modification d'écarts de données cb_adresse pour 850 - Charlotte MAY
+Mise à jour adhésion pour 1452 - Louise JEANDET
+Création d'écarts de données cb_contactaccident pour 1452 - Louise JEANDET
+Mise à jour adhésion pour 1453 - Sandra FADEL
+Mise à jour adhésion pour 1583 - Adeline MACE
+Données cb_adresse rectifiée pour 1583 - Adeline MACE
+Licencié 750420239017 - Brice RAMI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Brice RAMI
+Adresse mail brice.rami@gmail.com existe déjà 
+          pour 1602 Brice RAMI - Adhérent non créé 
+334 enregistrements dans base FFCAM dont 88 à jour de licence
+0 nouvelles adhésions / 5 adhérents mis à jour / 83 non traités 
+Fin de traitement 2022-09-12 18:15:03
+ Début de traitement 2022-10-12 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 12-09-2022 22:15:01 Cron
+Extraction SOAP : 335 adhérents extraits
+Mise à jour adhésion pour 1311 - Tanguy CABANA
+Modification d'écarts de données cb_adresse pour 1311 - Tanguy CABANA
+Modification d'écarts de données cb_codepostal pour 1311 - Tanguy CABANA
+Données email rectifiée pour 1311 - Tanguy CABANA
+Licencié 750420239017 - Brice RAMI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Brice RAMI
+Adresse mail brice.rami@gmail.com existe déjà 
+          pour 1602 Brice RAMI - Adhérent non créé 
+Licencié 750420239019 - Matthieu KAPRY => pas trouvé d'adhérent correspondant exactemement
+Création adherent Matthieu KAPRY
+Insertion de Matthieu KAPRY dans user => id = 1608
+Insertion de Matthieu KAPRY  dans usergroup_map
+Insertion dans comprofiler de Matthieu KAPRY
+335 enregistrements dans base FFCAM dont 90 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 89 non traités 
+Fin de traitement 2022-09-12 22:15:03
+ 

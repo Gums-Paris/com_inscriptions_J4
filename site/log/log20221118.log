@@ -1,0 +1,42 @@
+Début de traitement 2022-02-18 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 18-11-2022 02:15:01 Cron
+Extraction SOAP : 362 adhérents extraits
+362 enregistrements dans base FFCAM dont 256 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 256 non traités 
+Fin de traitement 2022-11-18 02:15:04
+ Début de traitement 2022-10-18 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 18-11-2022 10:15:01 Cron
+Extraction SOAP : 362 adhérents extraits
+362 enregistrements dans base FFCAM dont 256 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 256 non traités 
+Fin de traitement 2022-11-18 10:15:04
+ Début de traitement 2022-02-18 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 18-11-2022 14:15:01 Cron
+Extraction SOAP : 362 adhérents extraits
+Mise à jour adhésion pour 233 - Mireille MORINEAU
+362 enregistrements dans base FFCAM dont 257 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 256 non traités 
+Fin de traitement 2022-11-18 14:15:04
+ Début de traitement 2022-06-18 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 18-11-2022 18:15:01 Cron
+Extraction SOAP : 363 adhérents extraits
+Licencié 750420239046 - Clemence CORNAC => pas trouvé d'adhérent correspondant exactemement
+Création adherent Clemence CORNAC
+Insertion de Clemence CORNAC dans user => id = 1635
+Insertion de Clemence CORNAC  dans usergroup_map
+Insertion dans comprofiler de Clemence CORNAC
+363 enregistrements dans base FFCAM dont 258 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 258 non traités 
+Fin de traitement 2022-11-18 18:15:04
+ Début de traitement 2022-10-18 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 18-11-2022 22:15:01 Cron
+Extraction SOAP : 363 adhérents extraits
+363 enregistrements dans base FFCAM dont 258 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 258 non traités 
+Fin de traitement 2022-11-18 22:15:04
+ 

@@ -1,0 +1,48 @@
+Début de traitement 2022-02-25 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 25-09-2022 02:15:01 Cron
+Extraction SOAP : 344 adhérents extraits
+Mise à jour adhésion pour 139 - Romain DE MESMAY
+Création d'écarts de données cb_telfixe pour 139 - Romain DE MESMAY
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+344 enregistrements dans base FFCAM dont 141 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 140 non traités 
+Fin de traitement 2022-09-25 02:15:03
+ Début de traitement 2022-10-25 10:15:02
+Données session apiFFCAM vide - lancement API
+Import du 25-09-2022 10:15:02 Cron
+Extraction SOAP : 344 adhérents extraits
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+344 enregistrements dans base FFCAM dont 141 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 141 non traités 
+Fin de traitement 2022-09-25 10:15:04
+ Début de traitement 2022-02-25 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 25-09-2022 14:15:02 Cron
+Extraction SOAP : 344 adhérents extraits
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+344 enregistrements dans base FFCAM dont 141 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 141 non traités 
+Fin de traitement 2022-09-25 14:15:04
+ Début de traitement 2022-06-25 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 25-09-2022 18:15:01 Cron
+Extraction SOAP : 344 adhérents extraits
+Mise à jour adhésion pour 199 - Hubert LE PRIOL
+Mise à jour adhésion pour 243 - Agnes PEGURET
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+344 enregistrements dans base FFCAM dont 143 à jour de licence
+0 nouvelles adhésions / 2 adhérents mis à jour / 141 non traités 
+Fin de traitement 2022-09-25 18:15:04
+ Début de traitement 2022-10-25 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 25-09-2022 22:15:02 Cron
+Extraction SOAP : 344 adhérents extraits
+Mise à jour adhésion pour 1510 - Audrey PARE
+Modification d'écarts de données cb_adresse pour 1510 - Audrey PARE
+Données cb_codepostal rectifiée pour 1510 - Audrey PARE
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+344 enregistrements dans base FFCAM dont 144 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 143 non traités 
+Fin de traitement 2022-09-25 22:15:04
+ 

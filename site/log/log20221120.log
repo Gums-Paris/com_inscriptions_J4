@@ -1,0 +1,42 @@
+Début de traitement 2022-02-20 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 20-11-2022 02:15:01 Cron
+Extraction SOAP : 363 adhérents extraits
+363 enregistrements dans base FFCAM dont 258 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 258 non traités 
+Fin de traitement 2022-11-20 02:15:04
+ Début de traitement 2022-10-20 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 20-11-2022 10:15:01 Cron
+Extraction SOAP : 363 adhérents extraits
+363 enregistrements dans base FFCAM dont 258 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 258 non traités 
+Fin de traitement 2022-11-20 10:15:04
+ Début de traitement 2022-02-20 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 20-11-2022 14:15:02 Cron
+Extraction SOAP : 363 adhérents extraits
+Mise à jour adhésion pour 251 - Eric PIERRE
+363 enregistrements dans base FFCAM dont 259 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 258 non traités 
+Fin de traitement 2022-11-20 14:15:04
+ Début de traitement 2022-06-20 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 20-11-2022 18:15:01 Cron
+Extraction SOAP : 363 adhérents extraits
+363 enregistrements dans base FFCAM dont 259 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 259 non traités 
+Fin de traitement 2022-11-20 18:15:04
+ Début de traitement 2022-10-20 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 20-11-2022 22:15:02 Cron
+Extraction SOAP : 364 adhérents extraits
+Licencié 750420239047 - Sylvain BRUNETTI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Sylvain BRUNETTI
+Insertion de Sylvain BRUNETTI dans user => id = 1636
+Insertion de Sylvain BRUNETTI  dans usergroup_map
+Insertion dans comprofiler de Sylvain BRUNETTI
+364 enregistrements dans base FFCAM dont 260 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 260 non traités 
+Fin de traitement 2022-11-20 22:15:04
+ 

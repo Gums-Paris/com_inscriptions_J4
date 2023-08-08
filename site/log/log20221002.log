@@ -1,0 +1,50 @@
+Début de traitement 2022-02-02 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 02-10-2022 02:15:01 Cron
+Extraction SOAP : 348 adhérents extraits
+Mise à jour adhésion pour 1316 - Nathanael FOY
+Création d'écarts de données cb_adresse pour 1316 - Nathanael FOY
+Création d'écarts de données cb_adresse2 pour 1316 - Nathanael FOY
+Création d'écarts de données cb_codepostal pour 1316 - Nathanael FOY
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+348 enregistrements dans base FFCAM dont 164 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 163 non traités 
+Fin de traitement 2022-10-02 02:15:04
+ Début de traitement 2022-10-02 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 02-10-2022 10:15:01 Cron
+Extraction SOAP : 348 adhérents extraits
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+348 enregistrements dans base FFCAM dont 164 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 164 non traités 
+Fin de traitement 2022-10-02 10:15:04
+ Début de traitement 2022-02-02 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 02-10-2022 14:15:02 Cron
+Extraction SOAP : 348 adhérents extraits
+Mise à jour adhésion pour 1429 - Bruno GEOFFRON
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+348 enregistrements dans base FFCAM dont 165 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 164 non traités 
+Fin de traitement 2022-10-02 14:15:04
+ Début de traitement 2022-06-02 18:15:02
+Données session apiFFCAM vide - lancement API
+Import du 02-10-2022 18:15:02 Cron
+Extraction SOAP : 348 adhérents extraits
+Mise à jour adhésion pour 1072 - Max LOUHAUT
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+348 enregistrements dans base FFCAM dont 166 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 165 non traités 
+Fin de traitement 2022-10-02 18:15:04
+ Début de traitement 2022-10-02 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 02-10-2022 22:15:02 Cron
+Extraction SOAP : 348 adhérents extraits
+Mise à jour adhésion pour 161 - Olivier FASTRE
+Mise à jour adhésion pour 757 - Cecile FASTRE
+Mise à jour adhésion pour 759 - Margot FASTRE
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+348 enregistrements dans base FFCAM dont 169 à jour de licence
+0 nouvelles adhésions / 3 adhérents mis à jour / 166 non traités 
+Fin de traitement 2022-10-02 22:15:04
+ 

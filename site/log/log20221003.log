@@ -1,0 +1,73 @@
+Début de traitement 2022-02-03 02:15:03
+Données session apiFFCAM vide - lancement API
+Import du 03-10-2022 02:15:03 Cron
+Extraction SOAP : 348 adhérents extraits
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+348 enregistrements dans base FFCAM dont 169 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 169 non traités 
+Fin de traitement 2022-10-03 02:15:05
+ Début de traitement 2022-10-03 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 03-10-2022 10:15:01 Cron
+Extraction SOAP : 348 adhérents extraits
+Mise à jour adhésion pour 1434 - Marie-Helis TEISSEDRE
+Modification d'écarts de données cb_adresse pour 1434 - Marie-Helis TEISSEDRE
+Création d'écarts de données cb_adresse2 pour 1434 - Marie-Helis TEISSEDRE
+Modification d'écarts de données cb_contactaccident pour 1434 - Marie-Helis TEISSEDRE
+Mise à jour adhésion pour 1297 - Lara HUGHES-ALLEN
+Modification d'écarts de données cb_adresse pour 1297 - Lara HUGHES-ALLEN
+Modification d'écarts de données cb_codepostal pour 1297 - Lara HUGHES-ALLEN
+Modification d'écarts de données cb_ville pour 1297 - Lara HUGHES-ALLEN
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+348 enregistrements dans base FFCAM dont 171 à jour de licence
+0 nouvelles adhésions / 2 adhérents mis à jour / 169 non traités 
+Fin de traitement 2022-10-03 10:15:03
+ Début de traitement 2022-02-03 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 03-10-2022 14:15:02 Cron
+Extraction SOAP : 348 adhérents extraits
+Mise à jour adhésion pour 1092 - Brigitte LESOURD
+Mise à jour adhésion pour 341 - Cecile KOEHLER
+Mise à jour adhésion pour 1566 - Yoann ANGLADE
+Modification d'écarts de données cb_adresse pour 1566 - Yoann ANGLADE
+Création d'écarts de données cb_ville pour 1566 - Yoann ANGLADE
+Modification d'écarts de données cb_mobile pour 1566 - Yoann ANGLADE
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+348 enregistrements dans base FFCAM dont 174 à jour de licence
+0 nouvelles adhésions / 3 adhérents mis à jour / 171 non traités 
+Fin de traitement 2022-10-03 14:15:04
+ Début de traitement 2022-06-03 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 03-10-2022 18:15:01 Cron
+Extraction SOAP : 348 adhérents extraits
+Création d'écarts de données email pour 1385 - Valentin IOVENE
+Licencié 750420220005 - Cécile KOEHLER => trouvé adhérent correspondant exactemement  - ancien n° licence 264020229019
+Adhérent  - Cécile KOEHLER => mise à jour n° de licence 750420220005
+Mise à jour adhésion pour 341 - Cecile KOEHLER
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+348 enregistrements dans base FFCAM dont 174 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 173 non traités 
+Fin de traitement 2022-10-03 18:15:09
+ Début de traitement 2022-10-03 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 03-10-2022 22:15:01 Cron
+Extraction SOAP : 350 adhérents extraits
+Mise à jour adhésion pour 847 - Willy QUENTEL
+Licencié 750420220005 - Cécile KOEHLER => trouvé adhérent correspondant exactemement  - ancien n° licence 264020229019
+Adhérent  - Cécile KOEHLER => mise à jour n° de licence 750420220005
+Mise à jour adhésion pour 341 - Cecile KOEHLER
+Attention erreur sur données de base pour 1586 Pierre-Emanuel BARBIER
+Licencié 750420239033 - Danijela MARKOVIC => pas trouvé d'adhérent correspondant exactemement
+Création adherent Danijela MARKOVIC
+Insertion de Danijela MARKOVIC dans user => id = 1621
+Insertion de Danijela MARKOVIC  dans usergroup_map
+Insertion dans comprofiler de Danijela MARKOVIC
+Licencié 750420239034 - Alma NORDENSTAM => pas trouvé d'adhérent correspondant exactemement
+Création adherent Alma NORDENSTAM
+Insertion de Alma NORDENSTAM dans user => id = 1622
+Insertion de Alma NORDENSTAM  dans usergroup_map
+Insertion dans comprofiler de Alma NORDENSTAM
+350 enregistrements dans base FFCAM dont 177 à jour de licence
+0 nouvelles adhésions / 2 adhérents mis à jour / 175 non traités 
+Fin de traitement 2022-10-03 22:15:03
+ 

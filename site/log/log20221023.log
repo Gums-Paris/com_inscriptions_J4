@@ -1,0 +1,47 @@
+Début de traitement 2022-02-23 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 23-10-2022 02:15:01 Cron
+Extraction SOAP : 355 adhérents extraits
+355 enregistrements dans base FFCAM dont 212 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 212 non traités 
+Fin de traitement 2022-10-23 02:15:03
+ Début de traitement 2022-10-23 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 23-10-2022 10:15:01 Cron
+Extraction SOAP : 355 adhérents extraits
+355 enregistrements dans base FFCAM dont 212 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 212 non traités 
+Fin de traitement 2022-10-23 10:15:04
+ Début de traitement 2022-02-23 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 23-10-2022 14:15:01 Cron
+Extraction SOAP : 355 adhérents extraits
+Mise à jour adhésion pour 1148 - Marc BESSE
+Mise à jour adhésion pour 1402 - Daniel FABRE
+Création d'écarts de données cb_adresse2 pour 1402 - Daniel FABRE
+355 enregistrements dans base FFCAM dont 214 à jour de licence
+0 nouvelles adhésions / 2 adhérents mis à jour / 212 non traités 
+Fin de traitement 2022-10-23 14:15:04
+ Début de traitement 2022-06-23 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 23-10-2022 18:15:01 Cron
+Extraction SOAP : 355 adhérents extraits
+355 enregistrements dans base FFCAM dont 214 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 214 non traités 
+Fin de traitement 2022-10-23 18:15:04
+ Début de traitement 2022-10-23 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 23-10-2022 22:15:01 Cron
+Extraction SOAP : 355 adhérents extraits
+Mise à jour adhésion pour 257 - Georges POLIAN
+Mise à jour adhésion pour 834 - Anne-Laure POLIAN
+Modification d'écarts de données cb_adresse pour 834 - Anne-Laure POLIAN
+Création d'écarts de données cb_codepostal pour 834 - Anne-Laure POLIAN
+Création d'écarts de données cb_ville pour 834 - Anne-Laure POLIAN
+Modification d'écarts de données cb_contactaccident pour 834 - Anne-Laure POLIAN
+Données cb_mobile rectifiée pour 834 - Anne-Laure POLIAN
+Données cb_telfixe rectifiée pour 834 - Anne-Laure POLIAN
+355 enregistrements dans base FFCAM dont 216 à jour de licence
+0 nouvelles adhésions / 2 adhérents mis à jour / 214 non traités 
+Fin de traitement 2022-10-23 22:15:04
+ 

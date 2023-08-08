@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component"
+           version="3.2.0"
+           method="upgrade">
+
+	<name>Inscriptions</name>
+	<!-- The following elements are optional and free of formatting constraints -->
+	<creationDate>Aout 2011</creationDate>
+	<author>Benoit D'halluin</author>
+	<version>0</version>
+	<description>Gestion des inscriptions</description>
+	<menu link='index.php?option=inscriptions'>Inscriptions</menu>
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>inscriptions.php</filename>
+    <filename>controller.php</filename>
+    <folder>models</folder>
+    <folder>views</folder>
+	</files>
+
+	<administration>
+		<menu link='index.php?option=inscriptions'>Inscriptions</menu>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>inscriptions.php</filename>
+			<!-- SQL files section -->
+			<folder>sql</folder>
+		</files>
+	</administration>
+
+</extension>

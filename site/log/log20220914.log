@@ -1,0 +1,61 @@
+Début de traitement 2022-02-14 02:15:02
+Données session apiFFCAM vide - lancement API
+Import du 14-09-2022 02:15:02 Cron
+Extraction SOAP : 335 adhérents extraits
+Licencié 750420239017 - Brice RAMI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Brice RAMI
+Adresse mail brice.rami@gmail.com existe déjà 
+          pour 1602 Brice RAMI - Adhérent non créé 
+335 enregistrements dans base FFCAM dont 93 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 93 non traités 
+Fin de traitement 2022-09-14 02:15:04
+ Début de traitement 2022-10-14 10:15:02
+Données session apiFFCAM vide - lancement API
+Import du 14-09-2022 10:15:02 Cron
+Extraction SOAP : 335 adhérents extraits
+Mise à jour adhésion pour 637 - Catherine CHAPPAZ
+Licencié 750420239017 - Brice RAMI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Brice RAMI
+Adresse mail brice.rami@gmail.com existe déjà 
+          pour 1602 Brice RAMI - Adhérent non créé 
+335 enregistrements dans base FFCAM dont 94 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 93 non traités 
+Fin de traitement 2022-09-14 10:15:04
+ Début de traitement 2022-02-14 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 14-09-2022 14:15:02 Cron
+Extraction SOAP : 335 adhérents extraits
+Mise à jour adhésion pour 1529 - Lucie GARDIES
+Mise à jour adhésion pour 1536 - Hugo RAIN MESNIL
+Modification d'écarts de données cb_adresse pour 1536 - Hugo RAIN MESNIL
+Modification d'écarts de données cb_codepostal pour 1536 - Hugo RAIN MESNIL
+Licencié 750420239017 - Brice RAMI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Brice RAMI
+Adresse mail brice.rami@gmail.com existe déjà 
+          pour 1602 Brice RAMI - Adhérent non créé 
+335 enregistrements dans base FFCAM dont 96 à jour de licence
+0 nouvelles adhésions / 2 adhérents mis à jour / 94 non traités 
+Fin de traitement 2022-09-14 14:15:04
+ Début de traitement 2022-06-14 18:15:02
+Données session apiFFCAM vide - lancement API
+Import du 14-09-2022 18:15:02 Cron
+Extraction SOAP : 335 adhérents extraits
+Licencié 750420239017 - Brice RAMI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Brice RAMI
+Adresse mail brice.rami@gmail.com existe déjà 
+          pour 1602 Brice RAMI - Adhérent non créé 
+335 enregistrements dans base FFCAM dont 96 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 96 non traités 
+Fin de traitement 2022-09-14 18:15:04
+ Début de traitement 2022-10-14 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 14-09-2022 22:15:01 Cron
+Extraction SOAP : 335 adhérents extraits
+Licencié 750420239017 - Brice RAMI => pas trouvé d'adhérent correspondant exactemement
+Création adherent Brice RAMI
+Adresse mail brice.rami@gmail.com existe déjà 
+          pour 1602 Brice RAMI - Adhérent non créé 
+335 enregistrements dans base FFCAM dont 96 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 96 non traités 
+Fin de traitement 2022-09-14 22:15:04
+ 

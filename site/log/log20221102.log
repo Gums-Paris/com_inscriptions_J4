@@ -1,0 +1,48 @@
+Début de traitement 2022-02-02 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 02-11-2022 02:15:01 Cron
+Extraction SOAP : 358 adhérents extraits
+358 enregistrements dans base FFCAM dont 233 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 233 non traités 
+Fin de traitement 2022-11-02 02:15:04
+ Début de traitement 2022-10-02 10:15:02
+Données session apiFFCAM vide - lancement API
+Import du 02-11-2022 10:15:02 Cron
+Extraction SOAP : 358 adhérents extraits
+358 enregistrements dans base FFCAM dont 233 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 233 non traités 
+Fin de traitement 2022-11-02 10:15:04
+ Début de traitement 2022-02-02 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 02-11-2022 14:15:01 Cron
+Extraction SOAP : 358 adhérents extraits
+Mise à jour adhésion pour 1298 - Benedicte VIGNOBOUL
+Modification d'écarts de données cb_mobile pour 1298 - Benedicte VIGNOBOUL
+Données cb_adresse rectifiée pour 1298 - Benedicte VIGNOBOUL
+Données cb_codepostal rectifiée pour 1298 - Benedicte VIGNOBOUL
+Données cb_ville rectifiée pour 1298 - Benedicte VIGNOBOUL
+Données cb_contactaccident rectifiée pour 1298 - Benedicte VIGNOBOUL
+358 enregistrements dans base FFCAM dont 234 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 233 non traités 
+Fin de traitement 2022-11-02 14:15:04
+ Début de traitement 2022-06-02 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 02-11-2022 18:15:01 Cron
+Extraction SOAP : 358 adhérents extraits
+Mise à jour adhésion pour 140 - Bruno DE ROQUEMAUREL
+Création d'écarts de données cb_contactaccident pour 140 - Bruno DE ROQUEMAUREL
+Mise à jour adhésion pour 449 - Victor DE ROQUEMAUREL
+Modification d'écarts de données cb_contactaccident pour 449 - Victor DE ROQUEMAUREL
+Mise à jour adhésion pour 1542 - Swann DE ROQUEMAUREL
+Création d'écarts de données cb_ville pour 1542 - Swann DE ROQUEMAUREL
+358 enregistrements dans base FFCAM dont 237 à jour de licence
+0 nouvelles adhésions / 3 adhérents mis à jour / 234 non traités 
+Fin de traitement 2022-11-02 18:15:04
+ Début de traitement 2022-10-02 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 02-11-2022 22:15:02 Cron
+Extraction SOAP : 358 adhérents extraits
+358 enregistrements dans base FFCAM dont 237 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 237 non traités 
+Fin de traitement 2022-11-02 22:15:04
+ 

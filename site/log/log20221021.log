@@ -1,0 +1,45 @@
+Début de traitement 2022-02-21 02:15:02
+Données session apiFFCAM vide - lancement API
+Import du 21-10-2022 02:15:02 Cron
+Extraction SOAP : 354 adhérents extraits
+354 enregistrements dans base FFCAM dont 209 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 209 non traités 
+Fin de traitement 2022-10-21 02:15:04
+ Début de traitement 2022-10-21 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 21-10-2022 10:15:01 Cron
+Extraction SOAP : 354 adhérents extraits
+Mise à jour adhésion pour 119 - Danielle CANCEILL
+Création d'écarts de données cb_contactaccident pour 119 - Danielle CANCEILL
+354 enregistrements dans base FFCAM dont 210 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 209 non traités 
+Fin de traitement 2022-10-21 10:15:04
+ Début de traitement 2022-02-21 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 21-10-2022 14:15:01 Cron
+Extraction SOAP : 355 adhérents extraits
+Mise à jour adhésion pour 1534 - Elise TELLIER
+Création d'écarts de données cb_adresse pour 1534 - Elise TELLIER
+Licencié 750420239038 - Stanislav STEFINYN => pas trouvé d'adhérent correspondant exactemement
+Création adherent Stanislav STEFINYN
+Insertion de Stanislav STEFINYN dans user => id = 1626
+Insertion de Stanislav STEFINYN  dans usergroup_map
+Insertion dans comprofiler de Stanislav STEFINYN
+355 enregistrements dans base FFCAM dont 212 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 211 non traités 
+Fin de traitement 2022-10-21 14:15:04
+ Début de traitement 2022-06-21 18:15:02
+Données session apiFFCAM vide - lancement API
+Import du 21-10-2022 18:15:02 Cron
+Extraction SOAP : 355 adhérents extraits
+355 enregistrements dans base FFCAM dont 212 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 212 non traités 
+Fin de traitement 2022-10-21 18:15:04
+ Début de traitement 2022-10-21 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 21-10-2022 22:15:01 Cron
+Extraction SOAP : 355 adhérents extraits
+355 enregistrements dans base FFCAM dont 212 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 212 non traités 
+Fin de traitement 2022-10-21 22:15:04
+ 

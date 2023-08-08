@@ -1,0 +1,32 @@
+Début de traitement 2023-02-21 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 21-04-2023 02:15:01 Cron
+Extraction SOAP : 393 adhérents extraits
+393 enregistrements dans base FFCAM dont 314 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 314 non traités 
+Fin de traitement 2023-04-21 02:15:04
+ Début de traitement 2023-10-21 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 21-04-2023 10:15:01 Cron
+Extraction SOAP : 393 adhérents extraits
+393 enregistrements dans base FFCAM dont 314 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 314 non traités 
+Fin de traitement 2023-04-21 10:15:04
+ Début de traitement 2023-06-21 18:15:06
+Données session apiFFCAM vide - lancement API
+Import du 21-04-2023 18:15:06 Cron
+Extraction SOAP : 393 adhérents extraits
+Données cb_ville rectifiée pour 1220 - Sylvain ROUX
+Création d'écarts de données cb_codepostal pour 1599 - Claire PILIDJIAN
+Création d'écarts de données cb_ville pour 1599 - Claire PILIDJIAN
+393 enregistrements dans base FFCAM dont 314 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 314 non traités 
+Fin de traitement 2023-04-21 18:15:09
+ Début de traitement 2023-10-21 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 21-04-2023 22:15:01 Cron
+Extraction SOAP : 393 adhérents extraits
+393 enregistrements dans base FFCAM dont 314 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 314 non traités 
+Fin de traitement 2023-04-21 22:15:04
+ 

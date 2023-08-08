@@ -1,0 +1,40 @@
+Début de traitement 2022-10-01 22:15:01
+Données session apiFFCAM vide - lancement API
+Import du 01-09-2022 22:15:01 Cron
+Extraction SOAP : 322 adhérents extraits
+Mise à jour adhésion pour 1504 - Thibault LAMART
+Données cb_ville rectifiée pour 1504 - Thibault LAMART
+Licencié 750420239001 - Theodore DE MAUPEOU => pas trouvé d'adhérent correspondant exactemement
+Création adherent Theodore DE MAUPEOU
+Insertion de Theodore DE MAUPEOU dans user => id = 1591
+Insertion de Theodore DE MAUPEOU  dans usergroup_map
+Insertion dans comprofiler de Theodore DE MAUPEOU
+Licencié 750420239002 - Ludovic GARNIER => pas trouvé d'adhérent correspondant exactemement
+Création adherent Ludovic GARNIER
+Insertion de Ludovic GARNIER dans user => id = 1592
+Insertion de Ludovic GARNIER  dans usergroup_map
+Insertion dans comprofiler de Ludovic GARNIER
+Licencié 750420239003 - Jérôme LAIGLE => pas trouvé d'adhérent correspondant exactemement
+Création adherent Jérôme LAIGLE
+Insertion de Jérôme LAIGLE dans user => id = 1593
+Insertion de Jérôme LAIGLE  dans usergroup_map
+Insertion dans comprofiler de Jérôme LAIGLE
+Licencié 750420239004 - Theo KOEHRLEN BESSON => pas trouvé d'adhérent correspondant exactemement
+Création adherent Theo KOEHRLEN BESSON
+Insertion de Theo KOEHRLEN BESSON dans user => id = 1594
+Insertion de Theo KOEHRLEN BESSON  dans usergroup_map
+Insertion dans comprofiler de Theo KOEHRLEN BESSON
+Licencié 750420239005 - Jérôme GROSJEAN => pas trouvé d'adhérent correspondant exactemement
+Création adherent Jérôme GROSJEAN
+Insertion de Jérôme GROSJEAN dans user => id = 1595
+Insertion de Jérôme GROSJEAN  dans usergroup_map
+Insertion dans comprofiler de Jérôme GROSJEAN
+Licencié 750420239006 - Thomas GUYENOT => pas trouvé d'adhérent correspondant exactemement
+Création adherent Thomas GUYENOT
+Insertion de Thomas GUYENOT dans user => id = 1596
+Insertion de Thomas GUYENOT  dans usergroup_map
+Insertion dans comprofiler de Thomas GUYENOT
+322 enregistrements dans base FFCAM dont 8 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 7 non traités 
+Fin de traitement 2022-09-01 22:15:03
+ 

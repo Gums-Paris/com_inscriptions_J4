@@ -1,0 +1,43 @@
+Début de traitement 2022-02-10 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 10-10-2022 02:15:01 Cron
+Extraction SOAP : 350 adhérents extraits
+350 enregistrements dans base FFCAM dont 190 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 190 non traités 
+Fin de traitement 2022-10-10 02:15:04
+ Début de traitement 2022-10-10 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 10-10-2022 10:15:01 Cron
+Extraction SOAP : 350 adhérents extraits
+350 enregistrements dans base FFCAM dont 190 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 190 non traités 
+Fin de traitement 2022-10-10 10:15:04
+ Début de traitement 2022-02-10 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 10-10-2022 14:15:01 Cron
+Extraction SOAP : 350 adhérents extraits
+350 enregistrements dans base FFCAM dont 190 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 190 non traités 
+Fin de traitement 2022-10-10 14:15:04
+ Début de traitement 2022-06-10 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 10-10-2022 18:15:01 Cron
+Extraction SOAP : 350 adhérents extraits
+350 enregistrements dans base FFCAM dont 190 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 190 non traités 
+Fin de traitement 2022-10-10 18:15:04
+ Début de traitement 2022-10-10 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 10-10-2022 22:15:02 Cron
+Extraction SOAP : 351 adhérents extraits
+Mise à jour adhésion pour 789 - Alice PIGNE
+Licencié 750420239035 - Clément BOURDAIS => trouvé adhérent correspondant exactemement  - ancien n° licence 750420199008
+Adhérent  - Clément BOURDAIS => mise à jour n° de licence 750420239035
+Mise à jour adhésion pour 1292 - Clement BOURDAIS
+Création d'écarts de données cb_adresse pour 1292 - Clement BOURDAIS
+Création d'écarts de données cb_adresse2 pour 1292 - Clement BOURDAIS
+Création d'écarts de données cb_contactaccident pour 1292 - Clement BOURDAIS
+351 enregistrements dans base FFCAM dont 192 à jour de licence
+0 nouvelles adhésions / 2 adhérents mis à jour / 190 non traités 
+Fin de traitement 2022-10-10 22:15:04
+ 

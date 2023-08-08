@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="API Mailing">
+		<message>Api mailing lists pour execution auto</message>
+	</layout>
+	<fields name="request">
+		<fieldset name="request">
+			<field
+					name="task"
+					type="list"
+					label="Tâche à effectuer"
+					description="Tâche à effectuer"
+					default="synchro">
+            <option value="mailing.synchro">Synchro mailing list Sympa</option>
+      </field>
+		</fieldset>
+	</fields>
+</metadata>

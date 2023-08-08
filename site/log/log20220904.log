@@ -1,0 +1,49 @@
+Début de traitement 2022-02-04 02:15:02
+Données session apiFFCAM vide - lancement API
+Import du 04-09-2022 02:15:02 Cron
+Extraction SOAP : 323 adhérents extraits
+323 enregistrements dans base FFCAM dont 19 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 19 non traités 
+Fin de traitement 2022-09-04 02:15:03
+ Début de traitement 2022-10-04 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 04-09-2022 10:15:01 Cron
+Extraction SOAP : 323 adhérents extraits
+323 enregistrements dans base FFCAM dont 19 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 19 non traités 
+Fin de traitement 2022-09-04 10:15:03
+ Début de traitement 2022-02-04 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 04-09-2022 14:15:01 Cron
+Extraction SOAP : 323 adhérents extraits
+323 enregistrements dans base FFCAM dont 19 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 19 non traités 
+Fin de traitement 2022-09-04 14:15:03
+ Début de traitement 2022-06-04 18:15:02
+Données session apiFFCAM vide - lancement API
+Import du 04-09-2022 18:15:02 Cron
+Extraction SOAP : 323 adhérents extraits
+Mise à jour adhésion pour 177 - Dominique GOSSET
+Mise à jour adhésion pour 289 - Alain TREMBLEAU
+Création d'écarts de données cb_telfixe pour 289 - Alain TREMBLEAU
+Mise à jour adhésion pour 1209 - Jeremie HAQUET
+Mise à jour adhésion pour 766 - Laurent ANTICHAN
+Mise à jour adhésion pour 1474 - Chloe JEANJEAN
+Mise à jour adhésion pour 1527 - Arnaud GLOAGUEN
+323 enregistrements dans base FFCAM dont 25 à jour de licence
+0 nouvelles adhésions / 6 adhérents mis à jour / 19 non traités 
+Fin de traitement 2022-09-04 18:15:03
+ Début de traitement 2022-10-04 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 04-09-2022 22:15:02 Cron
+Extraction SOAP : 323 adhérents extraits
+Mise à jour adhésion pour 1184 - Clement TIRET
+Mise à jour adhésion pour 1220 - Sylvain ROUX
+Données cb_adresse rectifiée pour 1220 - Sylvain ROUX
+Données cb_adresse2 rectifiée pour 1220 - Sylvain ROUX
+Mise à jour adhésion pour 1321 - Jean-Francois DAT
+Mise à jour adhésion pour 1495 - Jean CHAVASSE-FRETAZ
+323 enregistrements dans base FFCAM dont 29 à jour de licence
+0 nouvelles adhésions / 4 adhérents mis à jour / 25 non traités 
+Fin de traitement 2022-09-04 22:15:03
+ 

@@ -1,0 +1,40 @@
+Début de traitement 2022-02-30 02:15:01
+Données session apiFFCAM vide - lancement API
+Import du 30-10-2022 02:15:01 Cron
+Extraction SOAP : 357 adhérents extraits
+357 enregistrements dans base FFCAM dont 229 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 229 non traités 
+Fin de traitement 2022-10-30 02:15:04
+ Début de traitement 2022-10-30 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 30-10-2022 10:15:01 Cron
+Extraction SOAP : 357 adhérents extraits
+357 enregistrements dans base FFCAM dont 229 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 229 non traités 
+Fin de traitement 2022-10-30 10:15:05
+ Début de traitement 2022-02-30 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 30-10-2022 14:15:01 Cron
+Extraction SOAP : 357 adhérents extraits
+Mise à jour adhésion pour 1485 - Paul-Marie PUGIBET
+Création d'écarts de données cb_adresse pour 1485 - Paul-Marie PUGIBET
+Création d'écarts de données cb_codepostal pour 1485 - Paul-Marie PUGIBET
+Modification d'écarts de données cb_ville pour 1485 - Paul-Marie PUGIBET
+357 enregistrements dans base FFCAM dont 230 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 229 non traités 
+Fin de traitement 2022-10-30 14:15:04
+ Début de traitement 2022-06-30 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 30-10-2022 18:15:01 Cron
+Extraction SOAP : 357 adhérents extraits
+357 enregistrements dans base FFCAM dont 230 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 230 non traités 
+Fin de traitement 2022-10-30 18:15:04
+ Début de traitement 2022-10-30 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 30-10-2022 22:15:02 Cron
+Extraction SOAP : 357 adhérents extraits
+357 enregistrements dans base FFCAM dont 230 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 230 non traités 
+Fin de traitement 2022-10-30 22:15:04
+ 

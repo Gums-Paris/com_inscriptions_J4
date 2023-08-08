@@ -1,0 +1,59 @@
+Début de traitement 2022-02-10 02:15:02
+Données session apiFFCAM vide - lancement API
+Import du 10-09-2022 02:15:02 Cron
+Extraction SOAP : 330 adhérents extraits
+Création d'écarts de données cb_adresse2 pour 1605 - Emilie SCHWARZ
+330 enregistrements dans base FFCAM dont 73 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 73 non traités 
+Fin de traitement 2022-09-10 02:15:03
+ Début de traitement 2022-10-10 10:15:01
+Données session apiFFCAM vide - lancement API
+Import du 10-09-2022 10:15:01 Cron
+Extraction SOAP : 330 adhérents extraits
+Mise à jour adhésion pour 1519 - Rodrigo GRANADO MARTINEZ
+Création d'écarts de données cb_adresse pour 1519 - Rodrigo GRANADO MARTINEZ
+Création d'écarts de données cb_adresse2 pour 1519 - Rodrigo GRANADO MARTINEZ
+Création d'écarts de données cb_codepostal pour 1519 - Rodrigo GRANADO MARTINEZ
+Création d'écarts de données cb_ville pour 1519 - Rodrigo GRANADO MARTINEZ
+330 enregistrements dans base FFCAM dont 74 à jour de licence
+0 nouvelles adhésions / 1 adhérents mis à jour / 73 non traités 
+Fin de traitement 2022-09-10 10:15:03
+ Début de traitement 2022-02-10 14:15:02
+Données session apiFFCAM vide - lancement API
+Import du 10-09-2022 14:15:02 Cron
+Extraction SOAP : 331 adhérents extraits
+Mise à jour adhésion pour 1554 - Arnaud PERNOT
+Modification d'écarts de données cb_ville pour 1554 - Arnaud PERNOT
+Données cb_adresse rectifiée pour 1554 - Arnaud PERNOT
+Mise à jour adhésion pour 1561 - Sarah GOETHALS
+Licencié 750420239015 - Hélène BONNET => pas trouvé d'adhérent correspondant exactemement
+Création adherent Hélène BONNET
+Insertion de Hélène BONNET dans user => id = 1606
+Insertion de Hélène BONNET  dans usergroup_map
+Insertion dans comprofiler de Hélène BONNET
+331 enregistrements dans base FFCAM dont 77 à jour de licence
+0 nouvelles adhésions / 2 adhérents mis à jour / 75 non traités 
+Fin de traitement 2022-09-10 14:15:03
+ Début de traitement 2022-06-10 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 10-09-2022 18:15:01 Cron
+Extraction SOAP : 331 adhérents extraits
+Mise à jour adhésion pour 1246 - Julie BAUDOUIN
+Mise à jour adhésion pour 1386 - Etienne CHAUMETON
+Modification d'écarts de données cb_ville pour 1386 - Etienne CHAUMETON
+331 enregistrements dans base FFCAM dont 79 à jour de licence
+0 nouvelles adhésions / 2 adhérents mis à jour / 77 non traités 
+Fin de traitement 2022-09-10 18:15:03
+ Début de traitement 2022-10-10 22:15:02
+Données session apiFFCAM vide - lancement API
+Import du 10-09-2022 22:15:02 Cron
+Extraction SOAP : 332 adhérents extraits
+Licencié 750420239016 - Marie MORLOT => pas trouvé d'adhérent correspondant exactemement
+Création adherent Marie MORLOT
+Insertion de Marie MORLOT dans user => id = 1607
+Insertion de Marie MORLOT  dans usergroup_map
+Insertion dans comprofiler de Marie MORLOT
+332 enregistrements dans base FFCAM dont 80 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 80 non traités 
+Fin de traitement 2022-09-10 22:15:03
+ 

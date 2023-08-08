@@ -1,0 +1,44 @@
+Début de traitement 2022-02-06 02:15:02
+Données session apiFFCAM vide - lancement API
+Import du 06-11-2022 02:15:02 Cron
+Extraction SOAP : 358 adhérents extraits
+358 enregistrements dans base FFCAM dont 240 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 240 non traités 
+Fin de traitement 2022-11-06 02:15:04
+ Début de traitement 2022-10-06 10:15:02
+Données session apiFFCAM vide - lancement API
+Import du 06-11-2022 10:15:02 Cron
+Extraction SOAP : 358 adhérents extraits
+358 enregistrements dans base FFCAM dont 240 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 240 non traités 
+Fin de traitement 2022-11-06 10:15:04
+ Début de traitement 2022-02-06 14:15:01
+Données session apiFFCAM vide - lancement API
+Import du 06-11-2022 14:15:01 Cron
+Extraction SOAP : 359 adhérents extraits
+Licencié 750420239042 - Nassima GUETTAF => pas trouvé d'adhérent correspondant exactemement
+Création adherent Nassima GUETTAF
+Insertion de Nassima GUETTAF dans user => id = 1631
+Insertion de Nassima GUETTAF  dans usergroup_map
+Insertion dans comprofiler de Nassima GUETTAF
+359 enregistrements dans base FFCAM dont 241 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 241 non traités 
+Fin de traitement 2022-11-06 14:15:04
+ Début de traitement 2022-06-06 18:15:01
+Données session apiFFCAM vide - lancement API
+Import du 06-11-2022 18:15:01 Cron
+Extraction SOAP : 359 adhérents extraits
+Création d'écarts de données cb_adresse pour 1631 - Nassima GUETTAF
+359 enregistrements dans base FFCAM dont 241 à jour de licence
+0 nouvelles adhésions / 0 adhérents mis à jour / 241 non traités 
+Fin de traitement 2022-11-06 18:15:04
+ Début de traitement 2022-10-06 22:15:03
+Données session apiFFCAM vide - lancement API
+Import du 06-11-2022 22:15:03 Cron
+Extraction SOAP : 359 adhérents extraits
+Mise à jour adhésion pour 595 - Marc AUFFROY
+Mise à jour adhésion pour 1413 - Romain ROUVILLOIS
+359 enregistrements dans base FFCAM dont 243 à jour de licence
+0 nouvelles adhésions / 2 adhérents mis à jour / 241 non traités 
+Fin de traitement 2022-11-06 22:15:05
+ 
