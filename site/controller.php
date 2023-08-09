@@ -5,6 +5,8 @@
 
 defined('_JEXEC') or die;
 
+use \Joomla\CMS\Factory;
+
 /**
  * 
  */
@@ -15,13 +17,16 @@ class InscriptionsController extends JControllerLegacy
 // forcer la vue par défaut si aucun paramètre renseignés dans l'url
 
     InscriptionsHelper::checkUser();
+    
+	$jinput = Factory::getApplication()->input;
 
+ //   if ( ! JRequest::getCmd( 'view' ) ) {
+	if ( ! $jinput->getCmd('view')) {
 
-    if ( ! JRequest::getCmd( 'view' ) ) {
-
-      JRequest::setVar('view', 'readhesion' );
-      JRequest::setVar('layout', 'default' );
-
+//      JRequest::setVar('view', 'readhesion' );
+//      JRequest::setVar('layout', 'default' );
+      $jinput->set('view', 'readhesion' );
+      $jinput->set('layout', 'default' );
 
     }
 
