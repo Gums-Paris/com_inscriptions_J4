@@ -1,6 +1,10 @@
 <?php 
 jimport( 'joomla.application.component.view');
 
+use \Joomla\CMS\Factory;
+use Joomla\CMS\Uri\Uri;
+use Joomla\CMS\Router\Route;
+
 class InscriptionsViewReadhesion extends JViewLegacy
 {
 	function display($tpl = null)
@@ -8,10 +12,11 @@ class InscriptionsViewReadhesion extends JViewLegacy
     /* Récupération de l'id utilisateur. 
        on reroute sur l'identification si pas logué
     */  
-    $app = JFactory::getApplication();
-  	$user   =  JFactory::getUser();
+    $app = Factory::getApplication();
+  	$user   =  Factory::getUser();
 		if (!$user->id) {
-      $uri = JFactory::getURI(); 
+ //     $uri = JFactory::getURI(); 
+	  $uri = Uri::getInstance();
       $return = $uri->toString(); 
 			$app->redirect('index.php?option=com_comprofiler&view=login&return='. urlencode(base64_encode($return)), 
         JText::_('Connexion nécessaire pour gérer son adhésion') ); 
@@ -137,7 +142,7 @@ class InscriptionsViewReadhesion extends JViewLegacy
           } elseif ($this->data->cb_assurancegums>0) {
             $this->msg = 'Ton type d`\'adhésion a été choisi mais non payé
               <br><br>=> veux-tu procéder au paiement ?
-              <br>Si oui : <a href="'.JRoute::_('index.php?option=com_inscriptions&view=readhesion&layout=paiement').'">Clique ici</a>';
+              <br>Si oui : <a href="'.JRoute::_('index.php?option=com_inscriptions&view=readhesion&layout=paiement&Itemid=556').'">Clique ici</a>';
           } elseif ($this->data->cb_licenceffcam>0) {
             $this->msg = 'Tu as choisi l\'adhésion avec licence FFCAM, ton dossier est en cours de traitement';
           } else {
@@ -149,7 +154,7 @@ class InscriptionsViewReadhesion extends JViewLegacy
 
           if ($this->licence=='') {
             $this->msg = 'Tu avais choisi '.$saison.' la section Randonnée Pédestre.  
-              <br><br>=> Si tu pratiques toujours uniquement la randonnée pédestre (en plaine) tu peux renouveller ton adhésion en ligne, <a href="'.JRoute::_('index.php?option=com_inscriptions&view=readhesion&layout=edit').'">
+              <br><br>=> Si tu pratiques toujours uniquement la randonnée pédestre (en plaine) tu peux renouveller ton adhésion en ligne, <a href="'.JRoute::_('index.php?option=com_inscriptions&view=readhesion&layout=edit&Itemid=556').'">
               <b>c\'est ici</b></a>
               <br><br>=> Si tu pratiques toute autre activité de montagne au GUMS (alpinisme, escalade, ski, randonnée sportive) il faut que tu change de formule en prenant une licence FFCAM, merci de le faire en ligne  
                 directement <a href="https://extranet-clubalpin.com/app/webeff/we_crv2_step01.php?IDCLUB=7504&Hchk=vB8dNIGppHQONBPgW3m7h8EcPrqS14" target="_blank">sur le site FFCAM</a>.
@@ -166,13 +171,13 @@ class InscriptionsViewReadhesion extends JViewLegacy
               $this->msg = 'Tu étais licencié FFCAM '.$saison.' (Club Alpin) mais pas la saison dernière  
                 <br><br>=> si tu étais licencié la saison dernière dans un autre club et que tu y prend ta licence cette année 
                   <br>* commence par renouveller ton adhésion sur le site FFCAM <a href="https://extranet-clubalpin.com/renouveler/" target="_blank"> ici...</a>
-                  <br>* renouvelle ensuite ton adhésion GUMS <a href="'.JRoute::_('index.php?option=com_inscriptions&view=readhesion&layout=edit&clubext=1').'"> ici...</a>             
+                  <br>* renouvelle ensuite ton adhésion GUMS <a href="'.JRoute::_('index.php?option=com_inscriptions&view=readhesion&layout=edit&clubext=1&Itemid=556').'"> ici...</a>             
                   <br>(pour reprendre ta licence au GUMS contacte la perma)        
                 <br><br>=> sinon il faut refaire une inscription 
                 <a href="https://extranet-clubalpin.com/app/webeff/we_crv2_step01.php?IDCLUB=7504&Hchk=vB8dNIGppHQONBPgW3m7h8EcPrqS14" target="_blank">ici...</a>. 
                 <br><br>Sauf si tu ne le souhaites pas,<b>veille à bien cocher la case "Le Crampon"</b> pour l\'abonnement annuel de 12 € ( tu peux compléter par un don de 13 € case à cocher plus bas)
                 <br><br>=> si tu ne souhaites plus prendre de licence FFCAM et repasser sur une adhésion simple au GUMS  
-                <a href="'.JRoute::_('index.php?option=com_inscriptions&view=readhesion&layout=edit').'">Clique ici</a>   
+                <a href="'.JRoute::_('index.php?option=com_inscriptions&view=readhesion&layout=edit&Itemid=556').'">Clique ici</a>   
                 <br>(<b>attention</b> la licence FFCAM est impérative pour participer aux activités alpinisme, ski de rando, <b>escalade</b> et randonnée sportive)  
               ';
             } else {
@@ -181,7 +186,7 @@ class InscriptionsViewReadhesion extends JViewLegacy
                 <b>fais le en ligne sur le site FFCAM</b></a> (le code t\'a été ou doit t\'être envoyé par courrier - tu peux aussi le demander par mail sur la <a href="https://extranet-clubalpin.com/renouveler/" target="_blank">page FFCAM</a>)
                 <br><br>Sauf si tu ne le souhaites pas,<b>veille à bien cocher la case "Le Crampon"</b> pour l\'abonnement annuel de 12 € ( tu peux compléter par un don de 13 € case à cocher plus bas)
                 <br><br>=> si tu ne souhaites plus prendre de licence FFCAM et repasser sur une adhésion simple au GUMS 
-                <a href="'.JRoute::_('index.php?option=com_inscriptions&view=readhesion&layout=edit').'">Clique ici</a>   
+                <a href="'.JRoute::_('index.php?option=com_inscriptions&view=readhesion&layout=edit&Itemid=556').'">Clique ici</a>   
                 <br>(<b>attention</b> la licence FFCAM est impérative pour participer aux activités alpinisme, ski de rando, <b>escalade</b> et randonnée sportive)  
               ';                
             }
@@ -190,7 +195,7 @@ class InscriptionsViewReadhesion extends JViewLegacy
             $this->msg = 'Tu étais licencié FFCAM la saison dernière mais tu avais pris ta licence <b>dans un autre club</b> 
               <br><br>=> pour renouveller ton adhésion de la même façon cette année :
               <br>* si ça n\'a pas déjà été fait, commence par renouveller ton adhésion <a href="https://extranet-clubalpin.com/renouveler/" target="_blank">sur le site FFCAM</a> 
-              <br>* renouvelle ensuite ton adhésion GUMS <a href="'.JRoute::_('index.php?option=com_inscriptions&view=readhesion&layout=edit&clubext=1').'">ici...</a>   
+              <br>* renouvelle ensuite ton adhésion GUMS <a href="'.JRoute::_('index.php?option=com_inscriptions&view=readhesion&layout=edit&clubext=1&Itemid=556').'">ici...</a>   
             ';
           }           
         }

@@ -1,5 +1,6 @@
 <?php
 defined('_JEXEC') or die;
+use \Joomla\CMS\Factory;
 
 class InscriptionsModelCrampon extends JModelAdmin
 {
@@ -8,9 +9,9 @@ class InscriptionsModelCrampon extends JModelAdmin
 	public function getItem($userid = 0)
 	{
 
-    $app = JFactory::getApplication();
+    $app = Factory::getApplication();
  		$id = $app->input->getInt('id', 0);
-		$user	= JFactory::getUser();
+		$user	= Factory::getUser();
     if ($userid==0) {
       $this->userid = $user->id;
     } elseif ( in_array($user->groups[0], array(6, 7, 8)) ) {
@@ -38,7 +39,7 @@ class InscriptionsModelCrampon extends JModelAdmin
 
 				if (empty($data))
 				{
-          JFactory::getApplication()->enqueueMessage('Utilisateur non trouvé', 'error');  
+          Factory::getApplication()->enqueueMessage('Utilisateur non trouvé', 'error');  
 				}
 				$this->item = $data;
                         
@@ -47,7 +48,7 @@ class InscriptionsModelCrampon extends JModelAdmin
 			{
 //        echo '<pre>';print_r($db);echo '</pre>';exit;
 
-        JFactory::getApplication()->enqueueMessage( $e->getMessage(), 'error');  
+        Factory::getApplication()->enqueueMessage( $e->getMessage(), 'error');  
 				$this->item = false;
 			}
 		}
@@ -58,9 +59,9 @@ class InscriptionsModelCrampon extends JModelAdmin
   public function getAnPrec($periode = 0)
 	{
     
-    $app = JFactory::getApplication();
+    $app = Factory::getApplication();
  		$id = $app->input->getInt('id', 0);
-		$user	= JFactory::getUser();
+		$user	= Factory::getUser();
     $this->userid = $user->id;    
     
  		if ($this->userid>0)
@@ -88,7 +89,7 @@ class InscriptionsModelCrampon extends JModelAdmin
 
 				if (empty($data))
 				{
-          JFactory::getApplication()->enqueueMessage('Utilisateur non trouvé', 'error');  
+          Factory::getApplication()->enqueueMessage('Utilisateur non trouvé', 'error');  
 				}
                 
         $data->periode = $periode;                
@@ -97,7 +98,7 @@ class InscriptionsModelCrampon extends JModelAdmin
 			}
 			catch (Exception $e)
 			{
-        JFactory::getApplication()->enqueueMessage( $e->getMessage(), 'error');  
+        Factory::getApplication()->enqueueMessage( $e->getMessage(), 'error');  
 				$this->item = false;
 			}
 		}

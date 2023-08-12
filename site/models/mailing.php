@@ -1,5 +1,6 @@
 <?php
 defined('_JEXEC') or die;
+use \Joomla\CMS\Factory;
 
 class InscriptionsModelMailing extends JModelAdmin
 {
@@ -18,8 +19,8 @@ class InscriptionsModelMailing extends JModelAdmin
 
     parent::__construct();
 
-    $user	= JFactory::getUser();
-    $app = JFactory::getApplication();
+    $user	= Factory::getUser();
+    $app = Factory::getApplication();
 
 
     // Traitement auto
@@ -129,7 +130,8 @@ class InscriptionsModelMailing extends JModelAdmin
   public function synchroAdherents() {
 
     // Table temporaire des adresses abonnées aux listes
-    $db = JFactory::getDbo();
+    $db = Factory::getDbo();
+    $qry = $db->getQuery(true);
     $db->setQuery("truncate #__mailinglistes");
     $db->execute();
 
@@ -213,6 +215,9 @@ class InscriptionsModelMailing extends JModelAdmin
      $rows = $db->loadObjectList();
 
      if(count($rows)>0) {
+		 $qry2 = $db->getQuery(true);
+		 $qry3 = $db->getQuery(true);
+		 $qry4 = $db->getQuery(true);
       foreach($rows as $r) {
 
         // Suppression des doublons éventuels d'adresses secondaires
@@ -266,7 +271,7 @@ class InscriptionsModelMailing extends JModelAdmin
     
   public function ajouter($id_user, $email = "", $principal = 1) {
 
-    $user	= JFactory::getUser($id_user);
+    $user	= Factory::getUser($id_user);
     if ($email == "") {
       $email = $user->email;      
     } 
@@ -277,7 +282,7 @@ class InscriptionsModelMailing extends JModelAdmin
     $r = $this->db2->obj($qry, $email);
 
     if ((int) $r->id > 0) {
-      $user2	= JFactory::getUser($r->userid);
+      $user2	= Factory::getUser($r->userid);
       $this->msg[] = "Erreur - Adresse ".$email." existe déjà dans la base adresses pour ".$user2->name;
       return false;
     }
@@ -424,7 +429,7 @@ class InscriptionsModelMailing extends JModelAdmin
   public function synchroPerma(){
 
     
-    $db = JFactory::getDbo();
+    $db = Factory::getDbo();
     $query = $db->getQuery(true);
     $query->select($db->quoteName(array('a.id', 'email', 'name'))) 
       ->from($db->quoteName('#__users', 'a'))
@@ -505,7 +510,7 @@ class InscriptionsModelMailing extends JModelAdmin
       
   public function synchroEscalade(){
 
-    $db = JFactory::getDbo();
+    $db = Factory::getDbo();
     $query = $db->getQuery(true);
     $query->select($db->quoteName(array('a.id', 'email', 'name'))) 
       ->from($db->quoteName('#__users', 'a'))
@@ -585,7 +590,7 @@ class InscriptionsModelMailing extends JModelAdmin
       
   public function synchroCd(){
 
-    $db = JFactory::getDbo();
+    $db = Factory::getDbo();
     $query = $db->getQuery(true);
     $query->select($db->quoteName(array('a.id', 'email', 'name'))) 
       ->from($db->quoteName('#__users', 'a'))
@@ -665,7 +670,7 @@ class InscriptionsModelMailing extends JModelAdmin
     
   public function synchroBureau(){
 
-    $db = JFactory::getDbo();
+    $db = Factory::getDbo();
     $query = $db->getQuery(true);
     $query->select($db->quoteName(array('a.id', 'email', 'name'))) 
       ->from($db->quoteName('#__users', 'a'))
@@ -744,7 +749,7 @@ class InscriptionsModelMailing extends JModelAdmin
     
   public function synchroResCores(){
 
-    $db = JFactory::getDbo();
+    $db = Factory::getDbo();
     $query = $db->getQuery(true);
     $query->select($db->quoteName(array('a.id', 'email', 'name'))) 
       ->from($db->quoteName('#__users', 'a'))
@@ -816,7 +821,7 @@ class InscriptionsModelMailing extends JModelAdmin
       
   public function synchroRes(){
 
-    $db = JFactory::getDbo();
+    $db = Factory::getDbo();
     $query = $db->getQuery(true);
     $query->select($db->quoteName(array('a.id', 'email', 'name'))) 
       ->from($db->quoteName('#__users', 'a'))
@@ -881,7 +886,7 @@ class InscriptionsModelMailing extends JModelAdmin
 
   public function synchroEncadrantsAlpi(){
 
-    $db = JFactory::getDbo();
+    $db = Factory::getDbo();
     $query = $db->getQuery(true);
     $query->select($db->quoteName(array('a.id', 'email', 'name'))) 
       ->from($db->quoteName('#__users', 'a'))
@@ -947,7 +952,7 @@ class InscriptionsModelMailing extends JModelAdmin
 
   public function synchroEncadrantsCascade(){
 
-    $db = JFactory::getDbo();
+    $db = Factory::getDbo();
     $query = $db->getQuery(true);
     $query->select($db->quoteName(array('a.id', 'email', 'name'))) 
       ->from($db->quoteName('#__users', 'a'))

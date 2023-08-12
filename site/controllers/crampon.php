@@ -7,6 +7,9 @@ defined('_JEXEC') or die( 'Restricted access' );
 
 jimport('joomla.application.component.controller');
 
+use \Joomla\CMS\Factory;
+use Joomla\CMS\Uri\Uri;
+
 /**
  
  */
@@ -34,9 +37,10 @@ class InscriptionsControllerCrampon extends JControllerAdmin
     
 	function annuler()
 	{		
-  	$user   =  JFactory::getUser();
+  	$user   =  Factory::getUser();
 		if (!$user->id) {
-      $uri = JFactory::getURI(); 
+ //     $uri = JFactory::getURI(); 
+      $uri = Uri::getInstance();
       $return = $uri->toString(); 
 			$app->redirect('index.php?option=com_comprofiler&view=login&return='. urlencode(base64_encode($return)), 
         JText::_('Connexion nécessaire pour gérer son adhésion') ); 

@@ -7,6 +7,9 @@ defined('_JEXEC') or die( 'Restricted access' );
 
 jimport('joomla.application.component.controller');
 
+use \Joomla\CMS\Factory;
+
+
 /**
  
  */
@@ -27,7 +30,7 @@ class InscriptionsControllerFfcam extends JControllerAdmin
 		JSession::checkToken() or jexit( 'Invalid Token' );
 
 		//get data from the request
-    $input = JFactory::getApplication()->input;		
+    $input = Factory::getApplication()->input;		
 		$post = (object) $input->post->get('jform', '', 'ARRAY');
 		
 		$model = $this->getModel('ffcam');
@@ -39,7 +42,7 @@ class InscriptionsControllerFfcam extends JControllerAdmin
 
       $type = 'message';
 
-      $app =JFactory::getApplication();
+      $app =Factory::getApplication();
       $a_modifier = $app->getUserState( "ffcam.a_modifier");  
       $item = array_search($post->no, $a_modifier);
 
@@ -83,10 +86,10 @@ class InscriptionsControllerFfcam extends JControllerAdmin
   function suivant() {
 
     InscriptionsHelper::checkManager();
-    $input = JFactory::getApplication()->input;		
+    $input = Factory::getApplication()->input;		
 		$post = $input->post->get('jform', '', 'ARRAY');
  
-    $app =JFactory::getApplication();
+    $app =Factory::getApplication();
     $a_modifier = $app->getUserState( "ffcam.a_modifier");  
     $item = array_search($post["no"], $a_modifier);
 
@@ -118,10 +121,10 @@ class InscriptionsControllerFfcam extends JControllerAdmin
   function later() {
 
     InscriptionsHelper::checkManager();
-    $input = JFactory::getApplication()->input;		
+    $input = Factory::getApplication()->input;		
 		$post = $input->post->get('jform', '', 'ARRAY');
  
-    $app =JFactory::getApplication();
+    $app =Factory::getApplication();
     $a_modifier = $app->getUserState( "ffcam.a_modifier");  
     $item = array_search($post["no"], $a_modifier);
 
@@ -148,8 +151,8 @@ class InscriptionsControllerFfcam extends JControllerAdmin
     InscriptionsHelper::checkManager();
  		$model = $this->getModel('ffcam');
 
-    $app =JFactory::getApplication();
-    $input = JFactory::getApplication()->input;		
+    $app =Factory::getApplication();
+    $input = Factory::getApplication()->input;		
 		$post = (object) $input->post->get('jform', '', 'ARRAY');
     if ($model->change_no_ffcam($post->no, $post->id)) {
       
@@ -172,7 +175,7 @@ class InscriptionsControllerFfcam extends JControllerAdmin
  		$model = $this->getModel('ffcam');
     $model2 = $this->getModel('Nouveau', 'InscriptionsModel');
 
-    $input = JFactory::getApplication()->input;		
+    $input = Factory::getApplication()->input;		
 		$post = (object) $input->post->get('jform', '', 'ARRAY');
     $r = $model->edite($post->no);
 

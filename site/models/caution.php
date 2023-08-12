@@ -1,5 +1,6 @@
 <?php
 defined('_JEXEC') or die;
+use \Joomla\CMS\Factory;
 
 class InscriptionsModelCaution extends JModelAdmin
 {
@@ -7,9 +8,9 @@ class InscriptionsModelCaution extends JModelAdmin
 	public function getItem($userid = 0)
 	{
 
-		$app = JFactory::getApplication();
+		$app = Factory::getApplication();
 		$id = $app->input->getInt('id', 0);
-		$user	= JFactory::getUser();
+		$user	= Factory::getUser();
 		
 		if ($userid==0) {
 			$this->userid = $user->id;

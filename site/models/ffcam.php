@@ -1,5 +1,6 @@
 <?php
 defined('_JEXEC') or die;
+use \Joomla\CMS\Factory;
 
 /*
 Nouveau process =
@@ -177,8 +178,8 @@ class InscriptionsModelFfcam extends JModelAdmin
 
     $lignes = 0;
 
-    $db = $this->getDbo();      
-    $db->query();
+    $db = $this->getDbo();     
+    $query = $db->getQuery(true);    
     $db->setQuery("TRUNCATE `".$table."`");
     $db->execute();
 
@@ -204,6 +205,7 @@ class InscriptionsModelFfcam extends JModelAdmin
 
     $data2 = array_chunk ( $data, $taille_values);
     //$data2 = array($data);
+    $qry = $db->getQuery(true);    
 
     foreach ($data2 as $d) {
       unset($x);
@@ -248,6 +250,7 @@ class InscriptionsModelFfcam extends JModelAdmin
     $erreurs_synchro  = array();
 
  		$db = $this->getDbo();
+    $query = $db->getQuery(true);    
 
     $query = "select * from `#__ffcam`"; // left join #__comprofiler on no_adherent_complet=cb_nocaf
     $db->setQuery($query);
@@ -355,7 +358,7 @@ class InscriptionsModelFfcam extends JModelAdmin
       }    
     }
 
-    $app =JFactory::getApplication();
+    $app =Factory::getApplication();
     $app->setUserState( "ffcam.a_modifier", $a_modifier);
     $app->setUserState( "ffcam.a_ajouter", $a_ajouter );
     $app->setUserState( "ffcam.a_retirer", $a_retirer );
@@ -381,7 +384,7 @@ class InscriptionsModelFfcam extends JModelAdmin
   function compare_activites() {
 
  		$db = $this->getDbo();
-
+	$query = $db->getQuery(true);
     $activites = array();
 
     $query = "select *, concat(no_adherent_complet, code_activite) as cle from `#__ffcam_activites`"; 
@@ -412,7 +415,8 @@ class InscriptionsModelFfcam extends JModelAdmin
   function compare_tout($ctrl_adhesion = false) {
   
  		$db = $this->getDbo();
-    $app =JFactory::getApplication();
+    $app =Factory::getApplication();
+	$query = $db->getQuery(true);
 
     $query = "select a.* from `#__ffcam` as a 
       left join #__comprofiler on no_adherent_complet=cb_nocaf 
@@ -448,6 +452,7 @@ class InscriptionsModelFfcam extends JModelAdmin
    function edite($no_adherent) {
 
  		$db = $this->getDbo();
+	$query = $db->getQuery(true);
                                              
     $query = "select * from `#__ffcam` where no_adherent_complet=". (float) $no_adherent;
     $db->setQuery($query);
@@ -469,6 +474,7 @@ class InscriptionsModelFfcam extends JModelAdmin
   function convert($r) {
   
  		$db = $this->getDbo();
+	$query = $db->getQuery(true);
 
     $this->getTarifs();
  
@@ -587,7 +593,8 @@ class InscriptionsModelFfcam extends JModelAdmin
   //
   function certificat($cb_nocaf) {
     $db = $this->getDbo();
-    
+ 	$qry = $db->getQuery(true);
+   
     $qry = "select cb_certifmedical, cb_certificat_file, cb_certificat_date from #__comprofiler               
             where cb_nocaf='".(float) $cb_nocaf."'";   
     $db->setQuery($qry);
@@ -604,7 +611,8 @@ class InscriptionsModelFfcam extends JModelAdmin
   function rapproche($r, $ctrl_adhesion = false) {
   
  		$db = $this->getDbo();
-    
+ 	$qry = $db->getQuery(true);
+   
     $rapport = "";
     $ecarts = array();
     $id = null;
@@ -702,6 +710,7 @@ class InscriptionsModelFfcam extends JModelAdmin
   //  
   function getTitreChamps() {
  		$db = $this->getDbo();
+	$query = $db->getQuery(true);
     
     // Recherche du tarif de licence
     //
@@ -731,6 +740,7 @@ class InscriptionsModelFfcam extends JModelAdmin
   //  
   function getTarifs() {
  		$db = $this->getDbo();
+	$query = $db->getQuery(true);
     
     // Recherche du tarif de licence
     //
@@ -935,6 +945,7 @@ class InscriptionsModelFfcam extends JModelAdmin
   function save($post) {
 
  		$db = $this->getDbo();
+	$query = $db->getQuery(true);
     $fields = array();  // Champs de comprofiler
     $fields2 = array(); // Champs de user (email)
     $msg = "";
@@ -982,6 +993,7 @@ class InscriptionsModelFfcam extends JModelAdmin
   function maj_ffcam($no) {
 
 		$db = $this->getDbo();
+	$query = $db->getQuery(true);
 
     $query = "REPLACE INTO `#__ffcam2` 
         select * from  `#__ffcam` WHERE no_adherent_complet = '" . (float) $no ."'";
@@ -1002,6 +1014,7 @@ class InscriptionsModelFfcam extends JModelAdmin
   function maj_ffcam_activites($no) {
 
 		$db = $this->getDbo();
+	$query = $db->getQuery(true);
 
     $query = "REPLACE INTO `#__ffcam_activites2` 
         select * from  `#__ffcam_activites` WHERE no_adherent_complet = '" . (float) $no ."'";
@@ -1022,12 +1035,13 @@ class InscriptionsModelFfcam extends JModelAdmin
   function change_no_ffcam($no_adherent, $id) {
 
 		$db = $this->getDbo();
+	$query = $db->getQuery(true);
     $query = "UPDATE `#__comprofiler` set cb_nocaf = " .$db->quote($no_adherent)
       . " WHERE id = " . (int) $id;
     $db->setQuery($query);
     $r = $db->execute();
     if ($r) {
-      $app =JFactory::getApplication();    
+      $app =Factory::getApplication();    
       $a_modifier = $app->getUserState( "ffcam.a_modifier");  
       $a_ajouter = $app->getUserState( "ffcam.a_ajouter");
       $a_modifier[] = $no_adherent;
@@ -1056,6 +1070,7 @@ class InscriptionsModelFfcam extends JModelAdmin
   public function chercheDoublon($prenom, $nom) {
 
 		$db = $this->getDbo();
+ 	$query = $db->getQuery(true);
     $query1 = "select #__users.id, firstname, lastname, cb_datenaissance, cb_nocaf FROM #__users 
         LEFT JOIN #__comprofiler ON #__users.id = user_id";
     $query  = $query1." WHERE lastname LIKE '".$db->escape($nom)
@@ -1073,6 +1088,7 @@ class InscriptionsModelFfcam extends JModelAdmin
   public function chercheDoublonEmail($no_adherent, $email) {
 
 		$db = $this->getDbo();            
+	$query = $db->getQuery(true);
     
     $query = "select #__users.id, #__users.name  FROM #__users 
         LEFT JOIN #__comprofiler ON #__users.id = user_id
@@ -1101,6 +1117,7 @@ class InscriptionsModelFfcam extends JModelAdmin
 
     if ($no_adherent>0) {
 		$db = $this->getDbo();
+	$query = $db->getQuery(true);
     $query1 = "select #__users.id, firstname, lastname, cb_datenaissance, cb_nocaf FROM #__users 
         LEFT JOIN #__comprofiler ON #__users.id = user_id";
     $query  = $query1." WHERE cb_nocaf = '".$db->escape($no_adherent)."'";

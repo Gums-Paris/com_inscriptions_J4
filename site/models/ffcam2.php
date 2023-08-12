@@ -1,5 +1,6 @@
 <?php
 defined('_JEXEC') or die;
+use \Joomla\CMS\Factory;
 
 include(__DIR__ ."/adherentffcam.php");
 
@@ -72,7 +73,7 @@ class InscriptionsModelFfcam2 extends JModelAdmin
   //
   function importFFCAM() {
 
-    $app = JFactory::getApplication();
+    $app = Factory::getApplication();
 		$cache = $app->input->getInt('cache', 0);
     if ($cache == 0) {
       unset($_SESSION["apiFFCAM"]);
@@ -325,7 +326,7 @@ class InscriptionsModelFfcam2 extends JModelAdmin
   function rapproche($ad) { 
 
     $db = $this->getDbo();
-    $user	= JFactory::getUser();
+    $user	= Factory::getUser();
 
     $erreur = false;
     $erreurs = array();
@@ -631,6 +632,7 @@ class InscriptionsModelFfcam2 extends JModelAdmin
   public function nouvelAdherent($ad) {
    
 		$db = $this->getDbo();
+      $query = $db->getQuery(true);    
 
     // Check doublon mail
     
@@ -750,6 +752,7 @@ class InscriptionsModelFfcam2 extends JModelAdmin
     $prenom = strtolower(InscriptionsHelper::retire_accents($prenom));
 
 		$db = $this->getDbo();
+      $query = $db->getQuery(true);    		
     $db->setQuery("select username from #__users where username regexp('^".$db->escape($prenom)."[0-9]{0,2}$')");
     $rows = $db->loadColumn();  
     
@@ -773,7 +776,7 @@ class InscriptionsModelFfcam2 extends JModelAdmin
   //
   function getApiFFCAM() {
 
-    $user	= JFactory::getUser();  
+    $user	= Factory::getUser();  
     if($user->guest == 0) {
       $par = $user->name . ' (' . $user->id . ')';
     } else {
@@ -999,7 +1002,8 @@ stdClass Object
   //
   function certificat($cb_nocaf) {
     $db = $this->getDbo();
-    
+    $qry = $db->getQuery(true);    
+   
     $qry = "select cb_certifmedical, cb_certificat_file, cb_certificat_date from #__comprofiler               
             where cb_nocaf='".(float) $cb_nocaf."'";   
     $db->setQuery($qry);
@@ -1014,7 +1018,7 @@ stdClass Object
   //  
   function getTitreChamps() {
  		$db = $this->getDbo();
-    
+      $query = $db->getQuery(true);        
     // 
     //
     $query = "SELECT * from j3x_comprofiler_fields";
@@ -1044,7 +1048,7 @@ stdClass Object
   function getTarifs() {
 
     $db = $this->getDbo();
-    
+    $query = $db->getQuery(true);       
     // Recherche du tarif de licence
     //
     $query = "SELECT fieldtitle, left(fieldlabel,2) as cat  FROM `j3x_comprofiler_field_values` as v 

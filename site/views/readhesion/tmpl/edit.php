@@ -3,22 +3,26 @@ defined('_JEXEC') or die;
 
 // Include the component HTML helpers.
 //JHtml::addIncludePath(JPATH_COMPONENT . '/helpers/html');
-//JHtml::_('behavior.formvalidation');
 //JHtml::_('behavior.keepalive');
 //JHtml::_('formbehavior.chosen', 'select');
+//JHtml::_('behavior.formvalidator');
 
-$app = JFactory::getApplication();
+use \Joomla\CMS\Factory;
+use \Joomla\CMS\HTML\HTMLHelper;
+
+$app = Factory::getApplication();
 $input = $app->input;
 
+	HTMLHelper::_('jquery.framework');
+	$script = str_replace( JPATH_ROOT, "", dirname(__FILE__)) . '/edit.js?i2';//.rand();
 
-  $script = str_replace( JPATH_ROOT, "", dirname(__FILE__)) . '/edit.js?i2';//.rand();
-	JFactory::getDocument()->addScript($script);  
+	Factory::getDocument()->addScript($script);  
 
 ?>
 <h3>Renouvelement de l'adhésion au GUMS - Saison <?php echo $this->saison;  ?></h3>
 <h5><?php echo $this->data->firstname.' '.$this->data->lastname;  ?></h5>
 <form action="<?php echo JRoute::_('index.php?option=com_inscriptions&view=readhesion&layout=edit&id=' . 
-(int) $this->data->id); ?>" method="post" name="adminForm" id="adminForm" class="form-validate">
+(int) $this->data->id); ?>" enctype="multipart/form-data" method="post" name="adminForm" id="adminForm" class="form-validate">
 		  <fieldset class="adminform">
         <div style="font-size: 14px; line-height: 20px; margin-bottom: 10px;">
           <?php echo $this->titre;  ?>

@@ -1,19 +1,20 @@
 <?php 
 jimport( 'joomla.application.component.view');
+use \Joomla\CMS\Factory;
 
 class InscriptionsViewFfcam2 extends JViewLegacy
 {
 	function display($tpl = null)
 	{		    
 
-      $input = JFactory::getApplication()->input;		
+      $input = Factory::getApplication()->input;		
 
       $layout = $this->getLayout();      
 
   
       if($layout != "import" and $layout != "importcsv" ) {
          
-         $user   =  JFactory::getUser();
+         $user   =  Factory::getUser();
       
          /* Récupération de l'id utilisateur. 
             on reroute sur l'identification si pas logué
@@ -22,7 +23,7 @@ class InscriptionsViewFfcam2 extends JViewLegacy
    
          $model = $this->getModel();                                   
          
-         $input = JFactory::getApplication()->input;		
+         $input = Factory::getApplication()->input;		
          $id = (int) $input->get('id');
 
          if($id > 0 and InscriptionsHelper::checkAdmin()) {

@@ -27,7 +27,6 @@ class InscriptionsController extends JControllerLegacy
 //      JRequest::setVar('layout', 'default' );
       $jinput->set('view', 'readhesion' );
       $jinput->set('layout', 'default' );
-
     }
 
     parent::display();

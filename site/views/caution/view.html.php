@@ -1,5 +1,7 @@
 <?php 
 jimport( 'joomla.application.component.view');
+use \Joomla\CMS\Factory;
+use Joomla\CMS\Uri\Uri;
 
 class InscriptionsViewCaution extends JViewLegacy
 {
@@ -9,10 +11,10 @@ class InscriptionsViewCaution extends JViewLegacy
     /* Récupération de l'id utilisateur. 
        on reroute sur l'identification si pas logué
     */  
-    $app = JFactory::getApplication();
-  	$user   =  JFactory::getUser();
+    $app = Factory::getApplication();
+  	$user   =  Factory::getUser();
 		if (!$user->id) {
-      $uri = JFactory::getURI(); 
+      $uri = Uri::getInstance(); 
       $return = $uri->toString(); 
 			$app->redirect('index.php?option=com_comprofiler&view=login&return='. urlencode(base64_encode($return)), 
         JText::_('Connexion nécessaire pour saisir sa caution') ); 

@@ -6,6 +6,8 @@ defined('_JEXEC') or die( 'Restricted access' );
 
 jimport('joomla.application.component.controller');
 
+use \Joomla\CMS\Factory;
+
 /**
  
  */
@@ -20,7 +22,7 @@ class InscriptionsControllerCertificats extends JControllerAdmin
 		JSession::checkToken() or jexit( 'Invalid Token' );
 
 		//get data from the request
-    $input = JFactory::getApplication()->input;		
+    $input = Factory::getApplication()->input;		
 		$post = (object) $input->post->get('jform', '', 'ARRAY');
     		
 		$model = $this->getModel('certificats');    
@@ -31,7 +33,7 @@ class InscriptionsControllerCertificats extends JControllerAdmin
       $type = 'message';
       $msg = "Certificat validé";
       
-      $app =JFactory::getApplication();
+      $app =Factory::getApplication();
       $a_valider = $app->getUserState( "certificats.a_valider");  
       $item = array_search($post->id, $a_valider);
 
@@ -62,10 +64,10 @@ class InscriptionsControllerCertificats extends JControllerAdmin
   function suivant() {
 
     InscriptionsHelper::checkUser();
-    $input = JFactory::getApplication()->input;		
+    $input = Factory::getApplication()->input;		
 		$post = $input->post->get('jform', '', 'ARRAY');
  
-    $app =JFactory::getApplication();
+    $app =Factory::getApplication();
     $a_valider = $app->getUserState( "certificats.a_valider");  
     $item = array_search($post["id"], $a_valider);
 

@@ -2,9 +2,11 @@
   defined('_JEXEC') or die('Restricted access');
 	JHTML::_('behavior.modal');
 	JHTML::_('behavior.tooltip');
+use \Joomla\CMS\Factory;
+	
   // Chemin vers le répertoire actuel
   $ch_js = str_replace( $_SERVER['DOCUMENT_ROOT'], "", dirname(__FILE__));
-  $document = JFactory::getDocument();  
+  $document = Factory::getDocument();  
   // Ajout du javascript associé au formulaire 
   //$document->addScript( $ch_js.DS.'form.js');
   include($_SERVER['DOCUMENT_ROOT']."/includes/payzen/function.php");  

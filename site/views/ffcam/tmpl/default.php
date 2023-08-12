@@ -1,5 +1,6 @@
 <?php // no direct access
 defined('_JEXEC') or die('Restricted access'); 
+use \Joomla\CMS\Factory;
 ?>
 <h4>Statut de la synchro fichier FFCAM</h4>
 <div>
@@ -12,7 +13,7 @@ defined('_JEXEC') or die('Restricted access');
 <?php
   if ($this->comparaison[3]>0) {  
   
-   $erreurs = JFactory::getApplication()->getUserState( "ffcam.erreurs_synchro");
+   $erreurs = Factory::getApplication()->getUserState( "ffcam.erreurs_synchro");
   
     echo '<br>Attention = nouvel adhérent avec adresse mail en doublon';        
     foreach($erreurs as $k) {                
@@ -27,7 +28,7 @@ defined('_JEXEC') or die('Restricted access');
 </div> 
 
 <?php
-$app =JFactory::getApplication();
+$app =Factory::getApplication();
 $a_modifier2 = $app->getUserState("ffcam.a_modifier2");
 echo '<div style="font-size: 10px; margin-top: 30px;">';
 if (count($a_modifier2)>0) {

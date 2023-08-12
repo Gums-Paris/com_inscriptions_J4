@@ -1,5 +1,6 @@
 <?php 
 jimport( 'joomla.application.component.view');
+use \Joomla\CMS\Factory;
 
 class InscriptionsViewCertificats extends JViewLegacy
 {
@@ -12,7 +13,7 @@ class InscriptionsViewCertificats extends JViewLegacy
  
     InscriptionsHelper::checkUser();
  
-    $app =JFactory::getApplication();
+    $app =Factory::getApplication();
     $id = $app->input->get("id", "0");
 
     $this->liste = (int) $app->getUserState("certificats.liste");

@@ -7,6 +7,7 @@
 //
 //
 // Contrôle d'accès par mot de passe dans l'url ou logname (tache cron)
+use \Joomla\CMS\Factory;
 
 ini_set('display_errors',1);
 ini_set('display_startup_errors',1);
@@ -31,8 +32,9 @@ require_once(JPATH_BASE.'/includes/defines.php');
 require_once(JPATH_BASE.'/includes/framework.php');
 require_once(JPATH_BASE.'/includes/myjmail/myjmail.php');
 
-$app    = JFactory::getApplication('site');
-$db     = JFactory::getDBO();
+$app    = Factory::getApplication('site');
+$db     = Factory::getDBO();
+$query = $db->getQuery(true);
 
 
 //
@@ -249,7 +251,8 @@ function mail_log($msg, $subject = "") {
 
 function user_info($id, $ext = "")
 {
-  $db = JFactory::getDBO();
+  $db = Factory::getDBO();
+  $query = $db->getQuery(true);
   $query = "SELECT u.id, `firstname` , `lastname` , username, email, `cb_dateinscription`
             FROM `#__users".$ext."` as u LEFT JOIN `#__comprofiler".$ext."` as c ON u.id=c.user_id   
             WHERE u.id =".$id;

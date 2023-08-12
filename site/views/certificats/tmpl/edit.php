@@ -1,11 +1,12 @@
 <?php
 defined('_JEXEC') or die;
+use \Joomla\CMS\Factory;
 ?>
 <h4>Vérification Certificat Médical</h4>
 <h4 style="display: inline-block; margin-top: 0px; margin-right: 20px;"><?php echo $this->data->name; ?></h4>
 <div style="display: inline-block;"><?php 
 if ($this->data->cb_dateinscription > '0000-00-00') {
-  echo ' - inscrit le '.JFactory::getDate($this->data->cb_dateinscription)->format("d-m-Y");
+  echo ' - inscrit le '.Factory::getDate($this->data->cb_dateinscription)->format("d-m-Y");
 } else {  
   echo ' - non inscrit à ce jour';
 }

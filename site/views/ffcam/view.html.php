@@ -1,11 +1,12 @@
 <?php 
 jimport( 'joomla.application.component.view');
+use \Joomla\CMS\Factory;
 
 class InscriptionsViewFfcam extends JViewLegacy
 {
 	function display($tpl = null)
 	{		    
-      	$user   =  JFactory::getUser();
+      	$user   =  Factory::getUser();
     
     /* Récupération de l'id utilisateur. 
        on reroute sur l'identification si pas logué
@@ -15,7 +16,7 @@ class InscriptionsViewFfcam extends JViewLegacy
         
     $model = $this->getModel();                                   
 
-    $app =JFactory::getApplication();
+    $app =Factory::getApplication();
     $no_adherent = $app->input->get("no", "0");
 
     switch ($app->input->get('layout')) {

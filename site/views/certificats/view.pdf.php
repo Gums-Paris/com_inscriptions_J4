@@ -16,6 +16,7 @@
 defined('_JEXEC') or die( 'Restricted access' );
 
 jimport( 'joomla.application.component.view');
+use \Joomla\CMS\Factory;
 
 class InscriptionsViewCertificats extends JViewLegacy
 {
@@ -24,7 +25,7 @@ class InscriptionsViewCertificats extends JViewLegacy
    {
    
     InscriptionsHelper::checkUser();
-    $app =JFactory::getApplication();     
+    $app =Factory::getApplication();     
             
     $file = trim($app->input->get("f", "", "RAW"));
     if (! is_file($file)) {

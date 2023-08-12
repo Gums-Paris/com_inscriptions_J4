@@ -1,5 +1,6 @@
 <?php
 defined('_JEXEC') or die;
+use \Joomla\CMS\Factory;
 
 class InscriptionsModelCertificats extends JModelAdmin
 {
@@ -7,7 +8,7 @@ class InscriptionsModelCertificats extends JModelAdmin
 	public function getData()
 	{
 
-    $app = JFactory::getApplication();
+    $app = Factory::getApplication();
  		$id = $app->input->getInt('id', 0);
     
     $liste = $app->input->getInt('liste', 0);
@@ -47,7 +48,7 @@ class InscriptionsModelCertificats extends JModelAdmin
       		$data = $db->loadObject();      
     			if (empty($data))
     			{
-            JFactory::getApplication()->enqueueMessage('Utilisateur non trouvé', 'error');  
+            Factory::getApplication()->enqueueMessage('Utilisateur non trouvé', 'error');  
   		  	}
 
         }
@@ -79,7 +80,7 @@ class InscriptionsModelCertificats extends JModelAdmin
 		}
 		catch (Exception $e)
 		{
-      JFactory::getApplication()->enqueueMessage( $e->getMessage(), 'error');  
+      Factory::getApplication()->enqueueMessage( $e->getMessage(), 'error');  
 			$this->list = false;
 		}
 
@@ -90,10 +91,11 @@ class InscriptionsModelCertificats extends JModelAdmin
   
   public function save($post) {
   
-    $app = JFactory::getApplication();
+    $app = Factory::getApplication();
 		$db = $this->getDbo();
+	$query = $db->getQuery(true);
 
-    $post->cb_certificat_date = JFactory::getDate($post->cb_certificat_date)->toSql(); 
+    $post->cb_certificat_date = Factory::getDate($post->cb_certificat_date)->toSql(); 
   
     $query = "UPDATE #__comprofiler 
       set cb_certificat_date = '".$post->cb_certificat_date."',
@@ -113,7 +115,7 @@ class InscriptionsModelCertificats extends JModelAdmin
 	public function getSansCertif()
 	{
 
-    $app = JFactory::getApplication();
+    $app = Factory::getApplication();
         
 		try
 		{
@@ -137,7 +139,7 @@ class InscriptionsModelCertificats extends JModelAdmin
 		}
 		catch (Exception $e)
 		{
-      JFactory::getApplication()->enqueueMessage( $e->getMessage(), 'error');  
+      Factory::getApplication()->enqueueMessage( $e->getMessage(), 'error');  
 			$this->list = false;
 		}
 

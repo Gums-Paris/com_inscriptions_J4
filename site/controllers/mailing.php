@@ -5,6 +5,10 @@
 // Check to ensure this file is included in Joomla!
 defined('_JEXEC') or die( 'Restricted access' );
 
+use \Joomla\CMS\Factory;
+use Joomla\CMS\Uri\Uri;
+
+
 /**
  
  */
@@ -18,7 +22,7 @@ class InscriptionsControllerMailing extends JControllerAdmin
 
 		$model = $this->getModel("mailing"); 		
 
-		$app = JFactory::getApplication();
+		$app = Factory::getApplication();
 
 		$userid = $app->input->getInt('userid', 0);
 		$email  = $app->input->get('email', '', 'string');
@@ -33,7 +37,7 @@ class InscriptionsControllerMailing extends JControllerAdmin
 	
 	function supprimer() {
 
-		$app = JFactory::getApplication();
+		$app = Factory::getApplication();
 		$userid = $app->input->getInt('userid', 0);
 
 		$model = $this->getModel("mailing"); 		
@@ -49,7 +53,7 @@ class InscriptionsControllerMailing extends JControllerAdmin
 
 	function abonner() {
 
-		$app = JFactory::getApplication();
+		$app = Factory::getApplication();
 
 		$id_liste   = $app->input->getInt('id_liste', 0);
 		$id_adresse = $app->input->getInt('id_adresse', 0);
@@ -64,7 +68,7 @@ class InscriptionsControllerMailing extends JControllerAdmin
 
 	function desabonner() {
 
-		$app = JFactory::getApplication();
+		$app = Factory::getApplication();
 
 		$id_liste   = $app->input->getInt('id_liste', 0);
 		$id_adresse = $app->input->getInt('id_adresse', 0);
@@ -120,12 +124,12 @@ class InscriptionsControllerMailing extends JControllerAdmin
 
 	function save()
 	{
-  	$user	= JFactory::getUser();
+  	$user	= Factory::getUser();
     $aid = max ($user->getAuthorisedViewLevels());
     
 	  if ($aid < 1) {			
        $LoginUrl = 'index.php?option=com_comprofiler&view=login'
-       . '&return='. base64_encode(JURI::getInstance()->toString());
+       . '&return='. base64_encode(Uri::getInstance()->toString());
        $this->setRedirect($LoginUrl);
        $this->redirect();
 		 return;
@@ -134,7 +138,7 @@ class InscriptionsControllerMailing extends JControllerAdmin
 		//JSession::checkToken() or jexit( 'Invalid Token' );
 
 		//get data from the request
-    $input = JFactory::getApplication()->input;		
+    $input = Factory::getApplication()->input;		
 		//$post = $input->post->get('jform', '', 'ARRAY');
 		
 		$model = $this->getModel('mailing');
@@ -151,9 +155,10 @@ class InscriptionsControllerMailing extends JControllerAdmin
     
 	function annuler()
 	{		
-  	$user   =  JFactory::getUser();
+  	$user   =  Factory::getUser();
 		if (!$user->id) {
-      $uri = JFactory::getURI(); 
+//      $uri = JFactory::getURI(); 
+      $uri = Uri::getInstance();
       $return = $uri->toString(); 
 			$app->redirect('index.php?option=com_comprofiler&view=login&return='. urlencode(base64_encode($return)), 
         JText::_('Connexion nécessaire pour gérer son adhésion') ); 

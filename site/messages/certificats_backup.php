@@ -1,4 +1,6 @@
 <?php
+use \Joomla\CMS\Factory;
+
 // Contrôle des modifs faites sur la base sorties / car_couchettes
 //
 ini_set('display_errors',1);
@@ -25,11 +27,12 @@ define('JPATH_COMPONENT', str_replace("messages", "", dirname(__FILE__)));
 define('DS', DIRECTORY_SEPARATOR);
 require_once(JPATH_BASE.DS.'includes'.DS.'defines.php');
 require_once(JPATH_BASE.DS.'includes'.DS.'framework.php');
-$mainframe = JFactory::getApplication('site');
-$lang = JFactory::getLanguage();
+$mainframe = Factory::getApplication('site');
+$lang = Factory::getLanguage();
 $lang->load("", JPATH_SITE, "fr-FR", true);
-$db         = JFactory::getDBO();
+$db         = Factory::getDBO();
 $db->_debug = 1;
+$qry = $db->getQuery(true);
 //
 
 

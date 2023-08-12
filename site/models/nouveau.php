@@ -1,5 +1,6 @@
 <?php
 defined('_JEXEC') or die;
+use \Joomla\CMS\Factory;
 
 class InscriptionsModelNouveau extends JModelAdmin
 {
@@ -23,7 +24,7 @@ class InscriptionsModelNouveau extends JModelAdmin
     
     // Login
     $username     = $this->genereLogin($prenom);
-
+	$query = $db->getQuery(true);
     $registerDate = date("Y-m-d H:i:s");
     $name         = $prenom." ".$nom;
     $query        = "insert into #__users (name,username,email,password,registerDate) ";
@@ -68,6 +69,7 @@ class InscriptionsModelNouveau extends JModelAdmin
   public function chercheDoublon($prenom, $nom) {
 
 		$db = $this->getDbo();
+	$query = $db->getQuery(true);
     $query1 = "select #__users.id, firstname, lastname, cb_datenaissance FROM #__users 
         LEFT JOIN #__comprofiler ON #__users.id = user_id";
     $query  = $query1." WHERE lastname LIKE '".$db->escape($nom)
@@ -86,6 +88,7 @@ class InscriptionsModelNouveau extends JModelAdmin
     $prenom  = $this->strToNoAccent(strtolower($prenom));
 
 		$db = $this->getDbo();
+	$query = $db->getQuery(true);
     $db->setQuery("select username from #__users where username regexp('^".$db->escape($prenom)."[0-9]{0,2}$')");
     $rows = $db->loadColumn();    
     if (count($rows) > 0) {
@@ -111,9 +114,9 @@ class InscriptionsModelNouveau extends JModelAdmin
 	public function getItem($userid = 0)
 	{
     
-    $app = JFactory::getApplication();
+    $app = Factory::getApplication();
  		$id = $app->input->getInt('id', 0);
-		$user	= JFactory::getUser();
+		$user	= Factory::getUser();
     if ($userid==0) {
       $this->userid = $user->id;
     } elseif ( in_array($user->groups[0], array(6, 7, 8)) ) {
@@ -142,7 +145,7 @@ class InscriptionsModelNouveau extends JModelAdmin
 
 				if (empty($data))
 				{
-          JFactory::getApplication()->enqueueMessage('Utilisateur non trouvé', 'error');  
+          Factory::getApplication()->enqueueMessage('Utilisateur non trouvé', 'error');  
 				}
 				$this->item = $data;
                         
@@ -151,7 +154,7 @@ class InscriptionsModelNouveau extends JModelAdmin
 			{
 //        echo '<pre>';print_r($db);echo '</pre>';exit;
 
-        JFactory::getApplication()->enqueueMessage( $e->getMessage(), 'error');  
+        Factory::getApplication()->enqueueMessage( $e->getMessage(), 'error');  
 				$this->item = false;
 			}
 		}
@@ -176,7 +179,7 @@ class InscriptionsModelNouveau extends JModelAdmin
  	protected function loadFormData()
 	{
 		// Check the session for previously entered form data.
-		$data = JFactory::getApplication()->getUserState('com_inscriptions.nouveau.nouveau.data', array());
+		$data = Factory::getApplication()->getUserState('com_inscriptions.nouveau.nouveau.data', array());
 		return $data;
 	}
   

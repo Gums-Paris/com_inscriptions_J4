@@ -1,14 +1,15 @@
 <?php
 defined('_JEXEC') or die;
+use \Joomla\CMS\Factory;
 
 class InscriptionsModelStatut extends JModelItem
 {
 	public function getItem($userid = 0)
 	{
-	    $app = JFactory::getApplication();
+	    $app = Factory::getApplication();
  		$id  = $app->input->getInt('id', 0);
  		$api = $app->input->getInt('api', 0);
-		$user	= JFactory::getUser();
+		$user	= Factory::getUser();
     
 
 

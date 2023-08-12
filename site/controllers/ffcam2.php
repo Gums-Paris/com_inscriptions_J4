@@ -8,6 +8,9 @@ defined('_JEXEC') or die( 'Restricted access' );
 
 jimport('joomla.application.component.controller');
 
+use \Joomla\CMS\Factory;
+
+
 /**
  
  */
@@ -44,7 +47,8 @@ class InscriptionsControllerFfcam2 extends JControllerAdmin
 
       $view =  $this->getView('ffcam2', 'html' );
       $view->setLayout('import');
-      $view->assignRef('log', $model->log);
+//      $view->assignRef('log', $model->log);
+      $view->log = &$model->log;
       $view->display(); 
 
     } else {
@@ -79,14 +83,14 @@ class InscriptionsControllerFfcam2 extends JControllerAdmin
     InscriptionsHelper::checkAdmin();
     
 
-    $input = JFactory::getApplication()->input;
+    $input = Factory::getApplication()->input;
     $f = $input->files->get('file');
 
     if ($f != NULL) {
 
       $log = array();
 
-      $db = JFactory::getDbo();
+      $db = Factory::getDbo();
       $champs = array(
         "user_id",
         "cb_nocaf",

@@ -8,19 +8,23 @@
 
 defined('_JEXEC') or die;
 
+use \Joomla\CMS\Factory;
+use Joomla\CMS\Uri\Uri;
+
 abstract class InscriptionsHelper
 {
 	public static function checkUser($redirect = true)
 	{ 
-    $user   =  JFactory::getUser();
+    $user   =  Factory::getUser();
     $check = false;
     if($user->guest != 1) {
       $check = true;
     }
     if ($check == false and $redirect) {
-        $uri = JFactory::getURI(); 
+//        $uri = JFactory::getURI(); 
+	    $uri = Uri::getInstance();
         $return = $uri->toString(); 
-        $app = JFactory::getApplication(); 
+        $app = Factory::getApplication(); 
         $app->redirect('index.php?option=com_comprofiler&view=login&return='. urlencode(base64_encode($return)), 
           JText::_('Connexion nécessaire pour gérer son adhésion') ); 
     }      
@@ -31,13 +35,13 @@ abstract class InscriptionsHelper
   
 	public static function checkAdmin($redirect = true)
 	{ 
-    $user	= JFactory::getUser();     
+    $user	= Factory::getUser();     
     $aid = $user->groups;
     $groupes_autorises = array(8, 7);
     $check = ( count(array_intersect($aid, $groupes_autorises)) > 0);
 
     if($check === false and $redirect) {
-      $app = JFactory::getApplication();
+      $app = Factory::getApplication();
       $app->redirect('index.php', 
         JText::_('Reservé aux administrateurs'), 'warning' ); 
     }          
@@ -49,7 +53,7 @@ abstract class InscriptionsHelper
   public static function checkCron()
 	{ 
 
-    $input = JFactory::getApplication()->input;		
+    $input = Factory::getApplication()->input;		
 		$path = $input->server->get('PATH');
     $server_user =  $input->server->get('USER');
 
@@ -68,7 +72,7 @@ abstract class InscriptionsHelper
   public static function checkVPS()
 	{ 
 
-    $input = JFactory::getApplication()->input;		
+    $input = Factory::getApplication()->input;		
 
     if(
       $input->server->get('HTTP_REMOTE_IP') == "135.125.205.29" and 
@@ -95,13 +99,13 @@ abstract class InscriptionsHelper
 
 	public static function checkManager($redirect = true)
 	{ 
-    $user	= JFactory::getUser();     
+    $user	= Factory::getUser();     
     $aid = $user->groups;
     $groupes_autorises = array(8, 7, 6, 13);
     $check = ( count(array_intersect($aid, $groupes_autorises)) > 0);
 
     if($check === false and $redirect) {
-        $app = JFactory::getApplication();
+        $app = Factory::getApplication();
   		  $app->redirect('index.php', 
         JText::_('Reservé aux gestionnaires'), 'warning' ); 
     }          

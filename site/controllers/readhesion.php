@@ -6,6 +6,8 @@
 defined('_JEXEC') or die( 'Restricted access' );
 
 jimport('joomla.application.component.controller');
+use \Joomla\CMS\Factory;
+
 
 /**
  
@@ -27,11 +29,11 @@ class InscriptionsControllerReadhesion extends JControllerAdmin
 		JSession::checkToken() or jexit( 'Invalid Token' );
 
 		//get data from the request
-    $input = JFactory::getApplication()->input;		
+		$input = Factory::getApplication()->input;		
 		$post = $input->post->get('jform', '', 'ARRAY');
 		
 		$model = $this->getModel('readhesion');
-    
+
  	  if ($model->store($post)) {
 			  $msg = 'Choix enregistrés - procéder au paiement';
         $type = 'message';

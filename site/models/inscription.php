@@ -1,14 +1,15 @@
 <?php
 defined('_JEXEC') or die;
+use \Joomla\CMS\Factory;
 
 class InscriptionsModelInscription extends JModelItem
 {
 	public function getItem($userid = 0)
 	{
     
-    $app = JFactory::getApplication();
+    $app = Factory::getApplication();
  		$id = $app->input->getInt('id', 0);
-		$user	= JFactory::getUser();
+		$user	= Factory::getUser();
     if ($userid==0) {
       $this->userid = $user->id;
     } elseif ( in_array($user->groups[0], array(6, 7, 8)) ) {
@@ -37,7 +38,7 @@ class InscriptionsModelInscription extends JModelItem
 
 				if (empty($data))
 				{
-          JFactory::getApplication()->enqueueMessage('Utilisateur non trouvé', 'error');  
+          Factory::getApplication()->enqueueMessage('Utilisateur non trouvé', 'error');  
 				}
 				$this->item = $data;
                         
@@ -46,7 +47,7 @@ class InscriptionsModelInscription extends JModelItem
 			{
 //        echo '<pre>';print_r($db);echo '</pre>';exit;
 
-        JFactory::getApplication()->enqueueMessage( $e->getMessage(), 'error');  
+        Factory::getApplication()->enqueueMessage( $e->getMessage(), 'error');  
 				$this->item = false;
 			}
 		}
@@ -57,15 +58,15 @@ class InscriptionsModelInscription extends JModelItem
   public function getAnPrec($userid = 0)
 	{
     
-    $app = JFactory::getApplication();
+    $app = Factory::getApplication();
  		$id = $app->input->getInt('id', 0);
-		$user	= JFactory::getUser();
+		$user	= Factory::getUser();
     if ($userid==0) {
       $this->userid = $user->id;
     } elseif ( in_array($user->groups[0], array(6, 7, 8)) ) {
         $this->userid = $userid;
     } else {
-     JFactory::getApplication()->enqueueMessage('Droits insuffisants', 'error');  
+     Factory::getApplication()->enqueueMessage('Droits insuffisants', 'error');  
     }
     
  		if ($this->userid>0)
@@ -93,14 +94,14 @@ class InscriptionsModelInscription extends JModelItem
 
 				if (empty($data))
 				{
-          JFactory::getApplication()->enqueueMessage('Utilisateur non trouvé', 'error');  
+          Factory::getApplication()->enqueueMessage('Utilisateur non trouvé', 'error');  
 				}
 				$this->AnPrec = $data;
                         
 			}
 			catch (Exception $e)
 			{
-        JFactory::getApplication()->enqueueMessage( $e->getMessage(), 'error');  
+        Factory::getApplication()->enqueueMessage( $e->getMessage(), 'error');  
 				$this->item = false;
 			}
 		}

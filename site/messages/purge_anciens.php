@@ -1,5 +1,7 @@
 <?php
 exit;
+use \Joomla\CMS\Factory;
+
 // Purge des anciens adhérents
 //
 //
@@ -29,11 +31,12 @@ define('JPATH_COMPONENT', str_replace("messages", "", dirname(__FILE__)));
 define('DS', DIRECTORY_SEPARATOR);
 require_once(JPATH_BASE.DS.'includes'.DS.'defines.php');
 require_once(JPATH_BASE.DS.'includes'.DS.'framework.php');
-$mainframe = JFactory::getApplication('site');
-$lang = JFactory::getLanguage();
+$mainframe = Factory::getApplication('site');
+$lang = Factory::getLanguage();
 $lang->load("", JPATH_SITE, "fr-FR", true);
-$db         = JFactory::getDBO();
+$db         = Factory::getDBO();
 $db->_debug = 1;
+$query = $db->getQuery(true);
 
 JLoader::register('MyJMail', JPATH_COMPONENT . '/helpers/myjmail.php');
 

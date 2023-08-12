@@ -1,5 +1,6 @@
 <?php
 defined('_JEXEC') or die;
+use \Joomla\CMS\Factory;
 
 // Include the component HTML helpers.
 //JHtml::addIncludePath(JPATH_COMPONENT . '/helpers/html');
@@ -7,11 +8,11 @@ defined('_JEXEC') or die;
 //JHtml::_('behavior.keepalive');
 //JHtml::_('formbehavior.chosen', 'select');
 
-$app = JFactory::getApplication();
+$app = Factory::getApplication();
 $input = $app->input;
 
 $script = str_replace( JPATH_ROOT, "", dirname(__FILE__)) . '/edit.js?i2';//.rand();
-JFactory::getDocument()->addScript($script);  
+Factory::getDocument()->addScript($script);  
 
 ?>
 <h3>Abonnement au crampon - Saison <?php echo $this->saison;  ?></h3>
