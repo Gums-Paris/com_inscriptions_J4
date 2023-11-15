@@ -1,9 +1,11 @@
 <?php // no direct access
-JHTML::_('behavior.modal');
+//JHTML::_('behavior.modal');
 defined('_JEXEC') or die('Restricted access'); 
+use \Joomla\CMS\HTML\HTMLHelper;
+HTMLHelper::_('jquery.framework');
+
 $script = str_replace( JPATH_ROOT, "", dirname(__FILE__)) . '/mailing.js';
 JFactory::getDocument()->addScript($script); 
-
 
 ?>
 

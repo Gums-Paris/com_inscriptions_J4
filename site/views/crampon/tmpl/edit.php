@@ -1,24 +1,36 @@
 <?php
 defined('_JEXEC') or die;
 use \Joomla\CMS\Factory;
+use \Joomla\CMS\HTML\HTMLHelper;
 
 // Include the component HTML helpers.
 //JHtml::addIncludePath(JPATH_COMPONENT . '/helpers/html');
-//JHtml::_('behavior.formvalidation');
+//JHtml::_('behavior.formvalidator');
 //JHtml::_('behavior.keepalive');
 //JHtml::_('formbehavior.chosen', 'select');
 
 $app = Factory::getApplication();
 $input = $app->input;
 
+HTMLHelper::_('jquery.framework');
+
 $script = str_replace( JPATH_ROOT, "", dirname(__FILE__)) . '/edit.js?i2';//.rand();
 Factory::getDocument()->addScript($script);  
-
 ?>
+
+<script language="javascript" type="text/javascript">
+function cale_montant() {
+    crampon =  jQuery("input[type='radio'][name='jform[cb_crampon]']:checked").val();
+    m = parseFloat(crampon);
+    x = m.toFixed(2) + ' €';
+    jQuery('span#montant').text(x)
+} 
+</script>
+
 <h3>Abonnement au crampon - Saison <?php echo $this->saison;  ?></h3>
 <h5><?php echo $this->data->firstname.' '.$this->data->lastname;  ?></h5>
 <form action="<?php echo JRoute::_('index.php?option=com_inscriptions&view=crampon&layout=edit&id=' . 
-(int) $this->data->id); ?>" method="post" name="adminForm" id="adminForm" class="form-validate">
+(int) $this->data->id.'&Itemid='.(int)$this->itemid); ?>" method="post" name="adminForm" id="adminForm" class="form-validate">
 		  <fieldset class="adminform">
 		    <div class="control-group">
 			    <div class="controls">
@@ -31,10 +43,10 @@ Factory::getDocument()->addScript($script);
              <span id="montant" style="font-weight: bold;"> €</span>             
 			    </div>			
         <div style="margin-left: 50px; margin-top: 10px; margin-bottom: 10px;" >
-      	  <button type="button" onclick="submitbutton('crampon.paiement')" class="btn btn-primary btn-lg" id="save">
+      	  <button type="button" onclick="Joomla.submitform('crampon.paiement')" class="btn btn-primary btn-lg" id="save">
 		      Paiement par carte
 	        </button> 
-  	      <button type="button" onclick="submitbutton('crampon.cancel')" class="btn btn-default btn-lg" id="cancel" style="margin-left: 20px;">
+  	      <button type="button" onclick="Joomla.submitform('crampon.cancel')" class="btn btn-default btn-lg" id="cancel" style="margin-left: 20px;">
 	  	    Annuler
 	        </button>
           </div> 	        

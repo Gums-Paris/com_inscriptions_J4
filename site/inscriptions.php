@@ -4,6 +4,8 @@
 
 defined('_JEXEC') or die;
 
+use \Joomla\CMS\HTML\HTMLHelper;
+
 if(!defined('DS')){
    define('DS',DIRECTORY_SEPARATOR);
 }
@@ -11,6 +13,7 @@ if(!defined('DS')){
 JLoader::register('InscriptionsHelper', JPATH_COMPONENT . '/helpers/inscriptions.php');
 JLoader::register('MyJMail', JPATH_COMPONENT . '/helpers/myjmail.php');
 
+HTMLHelper::_('jquery.framework');
 
 $controller = JControllerLegacy::getInstance('Inscriptions');
 $controller->execute(JFactory::getApplication()->input->get('task'));

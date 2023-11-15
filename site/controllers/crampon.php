@@ -11,7 +11,7 @@ use \Joomla\CMS\Factory;
 use Joomla\CMS\Uri\Uri;
 
 /**
- 
+
  */
 class InscriptionsControllerCrampon extends JControllerAdmin
 {
