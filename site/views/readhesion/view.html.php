@@ -77,7 +77,7 @@ class InscriptionsViewReadhesion extends JViewLegacy
       case "paiement":
         
         // Calcul du montant    
-        $this->montant = $this->data->cb_adhesion + $this->data->cb_assurancegums + $this->data->cb_crampon;    
+        $this->montant = (int)$this->data->cb_adhesion + (int)$this->data->cb_assurancegums + (int)$this->data->cb_crampon;    
 
         if ($this->montant==0) {
             $app->redirect(JRoute::_('index.php'), 
