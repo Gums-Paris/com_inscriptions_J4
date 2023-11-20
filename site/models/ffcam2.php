@@ -685,16 +685,18 @@ class InscriptionsModelFfcam2 extends JModelAdmin
     jimport('joomla.user.helper');
     $password     = JUserHelper::genRandomPassword();
     $salt         = JUserHelper::genRandomPassword(32);
-    $crypt        = JUserHelper::getCryptedPassword($password, $salt);
-    $hashedpwd    = $crypt.':'.$salt;
+//    $crypt              = JUserHelper::getCryptedPassword($password, $salt);
+//    $hashedpwd          = $crypt.':'.$salt;
+	$hashedpwd	= JUserHelper::hashPassword($password);
+    $params 		= '{"admin_language":"","language":"","editor":"","helpsite":"","timezone":"Europe\/Paris","admin_style":""}';
     
     // Login
     $username     = $this->genereLogin($ad->firstname);
 
     $registerDate = date("Y-m-d H:i:s");
     $name         = $ad->firstname." ".$ad->lastname;
-    $query        = "insert into #__users (name,username,email,password,registerDate) ";
-    $query       .= "values ('".$name."','".$username."','".$ad->email."','".$hashedpwd."','".$registerDate."')";
+    $query        = "insert into #__users (name,username,email,password,registerDate, params) ";
+    $query       .= "values ('".$name."','".$username."','".$ad->email."','".$hashedpwd."','".$registerDate."','".$params."')";
 
     $db->setQuery($query);
     if (! $db->execute()) {
@@ -758,7 +760,7 @@ class InscriptionsModelFfcam2 extends JModelAdmin
     
     if (count($rows) > 0) {
       $index = str_replace($prenom, "", $rows);
-      $index_new = max($index) + 1;              
+      $index_new = (int)max($index) + 1;              
       $prenom = $prenom.$index_new;
     }
     

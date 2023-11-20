@@ -21,12 +21,16 @@ class InscriptionsViewReadhesion extends JViewLegacy
 			$app->redirect('index.php?option=com_comprofiler&view=login&return='. urlencode(base64_encode($return)), 
         JText::_('Connexion nécessaire pour gérer son adhésion') ); 
 		}      
+	  $menu_actif     = $app->getMenu()->getActive();
+ 	  	if (isset($menu_actif)) {
+		  $this->itemid = $menu_actif->id;
+		}
 
     /* Récupération des données (community builder) de l'utilisateur. 
        on reroute sur l'accueil en cas d'échec
     */    
     $this->data = $this->get( 'Item' );
-    
+
     if ($this->data==null) {              
 			$app->redirect(JRoute::_('index.php'), 
         JText::_('Erreur de traitement, contacter l\'administrateur') ); 

@@ -19,10 +19,27 @@ $input = $app->input;
 	Factory::getDocument()->addScript($script);  
 
 ?>
-<h3>Renouvelement de l'adhésion au GUMS - Saison <?php echo $this->saison;  ?></h3>
+
+<script language="javascript" type="text/javascript">
+function cale_montant() {
+    cotisation = jQuery("input[type='radio'][name='jform[cb_adhesion]']:checked").val(); 
+    assurance = jQuery("input[type='radio'][name='jform[cb_assurancegums]']:checked").val();
+    crampon =  jQuery("input[type='radio'][name='jform[cb_crampon]']:checked").val();
+    m = parseFloat(cotisation) + parseFloat(assurance) + parseFloat(crampon);
+    x = m.toFixed(2) + ' €';
+    jQuery('span#montant').text(x)
+} 
+function submitbutton(pressbutton)
+{
+	var form = document.adminForm;
+  submitform( pressbutton );
+}
+</script>
+
+<h3>Renouvellement de l'adhésion au GUMS - Saison <?php echo $this->saison;  ?></h3>
 <h5><?php echo $this->data->firstname.' '.$this->data->lastname;  ?></h5>
 <form action="<?php echo JRoute::_('index.php?option=com_inscriptions&view=readhesion&layout=edit&id=' . 
-(int) $this->data->id); ?>" enctype="multipart/form-data" method="post" name="adminForm" id="adminForm" class="form-validate">
+(int) $this->data->id.'&Itemid='.(int)$this->itemid); ?>" enctype="multipart/form-data" method="post" name="adminForm" id="adminForm" class="form-validate">
 		  <fieldset class="adminform">
         <div style="font-size: 14px; line-height: 20px; margin-bottom: 10px;">
           <?php echo $this->titre;  ?>
@@ -53,10 +70,10 @@ $input = $app->input;
              <span id="montant" style="font-weight: bold;"> €</span>             
 			    </div>			
         <div style="margin-left: 50px; margin-top: 10px; margin-bottom: 10px;" >
-      	  <button type="button" onclick="submitbutton('readhesion.save')" class="btn btn-primary btn-lg" id="save">
+      	  <button type="button" onclick="Joomla.submitform('readhesion.save')" class="btn btn-primary btn-lg" id="save">
 		      Paiement par carte
 	        </button> 
-  	      <button type="button" onclick="submitbutton('readhesion.cancel')" class="btn btn-default btn-lg" id="cancel" style="margin-left: 20px;">
+  	      <button type="button" onclick="Joomla.submitform('readhesion.cancel')" class="btn btn-default btn-lg" id="cancel" style="margin-left: 20px;">
 	  	    Annuler
 	        </button>
           </div> 	        

@@ -37,7 +37,7 @@ class InscriptionsControllerReadhesion extends JControllerAdmin
  	  if ($model->store($post)) {
 			  $msg = 'Choix enregistrés - procéder au paiement';
         $type = 'message';
-        $this->setRedirect(JRoute::_('index.php?option=com_inscriptions&view=readhesion&layout=paiement', false), $msg, $type);
+        $this->setRedirect(JRoute::_('index.php?option=com_inscriptions&view=readhesion&layout=paiement&Itemid=556', false), $msg, $type);
 		} else {
 			  $msg = 'Erreur dans l\'enregistrement (contacter l\'administrateur)';
         $type = 'error';

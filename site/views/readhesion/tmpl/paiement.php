@@ -1,14 +1,14 @@
 <?php 
   defined('_JEXEC') or die('Restricted access');
-	JHTML::_('behavior.modal');
-	JHTML::_('behavior.tooltip');
+//	JHTML::_('behavior.modal');
+	JHTML::_('bootstrap.tooltip');
   // Chemin vers le répertoire actuel
   $ch_js = str_replace( $_SERVER['DOCUMENT_ROOT'], "", dirname(__FILE__));
-  $document = JFactory::getDocument();  
+  $document =  JFactory::getDocument();  
   // Ajout du javascript associé au formulaire 
   //$document->addScript( $ch_js.DS.'form.js');
   include($_SERVER['DOCUMENT_ROOT']."/includes/payzen/function.php");  
-    
+
 ?>
 <h1 class="componentheading">Enregistrement paiement carte bancaire</h1>
 
@@ -50,12 +50,8 @@ $form = get_formHtml_request2($field, 0, $return );
 echo $form;
 
 ?>
-</div>
-
-<div>
-<br />
-<ul>
-<li style="margin-bottom: 10px;">le système est sécurisé par le prestataire bancaire <a href="http://www.payzen.eu/mentions/" target="_blank">Payzen</a>,  
+<div style="margin: 25px;">
+Le système est sécurisé par le prestataire bancaire <a href="http://www.payzen.eu/mentions/" target="_blank">Payzen</a>,  
 à aucun moment GUMS n'a connaissance de ton n° de CB 
-</ul>
+<div>
 </div>
